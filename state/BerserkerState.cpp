@@ -55,3 +55,7 @@ void BerserkerState::_takeDamage(int dmg) {
 void BerserkerState::takeDamage(int dmg) {
     this->_takeDamage(dmg);
 }
+
+void BerserkerState::takeMagicDamage(int dmg) {
+    std::cout << "Berseker: Odin protect me! Trembling witch!"<<  std::endl;
+}

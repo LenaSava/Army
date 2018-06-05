@@ -11,6 +11,9 @@ class Berserker : public Unit {
         Berserker(const char* title, int hitPoints, int damage);
         virtual ~Berserker();
 
+
+
+
 };
 
 #endif // BERSERKER_H

@@ -26,8 +26,13 @@ class Unit {
         void takeDamage(int dmg);
         void takeMagicDamage(int dmg);
 
+
         virtual void attack(Unit* enemy);
         virtual void counterAttack(Unit* enemy);
+
+        void setAbility(Ability* newAbility);
+        void setState(State* newState);
+//        void setTitile(const char* name);
 
         void PrintDescription();
 };

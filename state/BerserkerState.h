@@ -27,6 +27,8 @@ public:
 
     void addHitPoints(int hp);
     void takeDamage(int dmg);
+    void takeMagicDamage(int dmg);
+
 };
 
 #endif // BERSERKER_STATE_H

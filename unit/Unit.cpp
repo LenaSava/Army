@@ -47,6 +47,21 @@ void Unit::attack(Unit* enemy) {
 void Unit::counterAttack(Unit* enemy) {
     this->ability->counterAttack(enemy);
 }
+void Unit::setAbility(Ability* newAbility) {
+    if (this->ability != NULL ) {
+        delete this->ability;
+    }
+    this->ability = newAbility;
+}
+void Unit::setState(State* newState) {
+    if ( this->state != NULL) {
+        delete this->state;
+    }
+    this->state = newState;
+}
+//void Unit::setTitile(const char* NewName) {
+//    getTitle()= NewName;
+//}
 
 void Unit::PrintDescription() {
     std::cout << "Unit name is " << this->state->getTitle()

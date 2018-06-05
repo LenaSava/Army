@@ -5,5 +5,6 @@ Vampire::Vampire(const char* title, int hitPoints, int damage):
             this->ability = new VampireAbility(this);
 }
 
+
 Vampire::~Vampire() {}
 

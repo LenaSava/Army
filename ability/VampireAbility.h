@@ -6,12 +6,13 @@
 class VampireAbility : public Ability {
     public:
         VampireAbility(Unit* owner);
-        virtual ~VampireAbility();
+
 
         void attack(Unit* enemy);
         void counterAttack(Unit* enemy);
+        virtual void stealHP(Unit* enemy);
 
-    virtual ~VampireAbility();
+        virtual ~VampireAbility();
 
 
 };
