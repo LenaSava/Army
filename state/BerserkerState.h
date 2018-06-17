@@ -21,7 +21,7 @@ public:
     void ensureIsAlive();
 
     const char* getTitle() const;
-    int getHitPoints() const;
+    int getHitPoints() const;;;;
     int getHitPointsLimit() const;
     int getDamage() const;
 

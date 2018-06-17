@@ -11,6 +11,7 @@ int main() {
     Wizard* gendalf = new Wizard("Gendalf", 100, 15, 100);
     Berserker* viking = new Berserker("Viking", 100, 20);
     Vampire* vlad = new Vampire("Vlad", 150, 30);
+    Werewolf* andy = new Werewolf("Andy", 150, 30);
 
 
     capitanAmerika->PrintDescription();
@@ -19,15 +20,22 @@ int main() {
     gendalf->PrintDescription();
     viking->PrintDescription();
     vlad->PrintDescription();
+    andy->PrintDescription();
 
-    razboynik->attack(vlad);
-    vlad->attack(gendalf);
-    capitanAmerika->attack(viking);
+//    razboynik->attack(vlad);
+
+    andy->convert(lev);
+
+    gendalf->attack(vlad);
+    gendalf->cast(lev);
+
+
+
 
     vlad->PrintDescription();
+    lev->PrintDescription();
     gendalf->PrintDescription();
-    capitanAmerika->PrintDescription();
-    razboynik->PrintDescription();
+
 
     return 0;
 }

@@ -1,19 +1,22 @@
 #include "State.h"
 
-State::State(const char* title, int hitPoints, int damage) {
+State::State(const char *title, int hitPoints, int damage) {
     this->title = title;
     this->hitPoints = hitPoints;
     this->hitPointsLimit = hitPoints;
     this->damage = damage;
+    this->isVampire = false;
+    this->isWolf = false;
 }
 
-State::~State() {}
+State::~State() = default;
 
 void State::ensureIsAlive() {
     if ( this->hitPoints == 0 ) {
         throw OutOfHitPointsException();
     }
 }
+
 
 const char* State::getTitle() const {
     return this->title;
@@ -58,4 +61,14 @@ void State::takeDamage(int dmg) {
 
 void State::takeMagicDamage(int dmg) {
     this->_takeDamage(dmg);
+}
+
+bool State::getIsVampire() {
+    return this->isVampire;
+}
+bool State::getIsWolf() {
+    return this->isWolf;
+}
+bool State::getIsTurnWolf() {
+    return this->isTurnWolf;
 }

@@ -5,6 +5,8 @@
 #include "../ability/Ability.h"
 
 class Ability;
+class State;
+
 
 class Unit {
     protected:
@@ -28,11 +30,17 @@ class Unit {
 
 
         virtual void attack(Unit* enemy);
+        virtual void convert(Unit* enemy);
+        virtual void turnMySelf();
         virtual void counterAttack(Unit* enemy);
 
-        void setAbility(Ability* newAbility);
-        void setState(State* newState);
-//        void setTitile(const char* name);
+        bool getIsVampire();
+        bool getIsWolf();
+        bool getIsTurnWolf();
+
+        virtual void changeAbility(Ability* newAbility);
+        virtual void changeState(State* newState);
+
 
         void PrintDescription();
 };

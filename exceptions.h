@@ -4,4 +4,6 @@
 class OutOfHitPointsException {};
 class OutOfManaException {};
 
+class ItsAllreadyVampire {};
+
 #endif // EXCEPTIONS_H

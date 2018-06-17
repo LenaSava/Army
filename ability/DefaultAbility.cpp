@@ -7,3 +7,7 @@ DefaultAbility::~DefaultAbility() {}
 void DefaultAbility::attack(Unit* enemy) {
     this->Ability::attack(enemy);
 }
+
+void DefaultAbility::convert(Unit* enemy) {
+
+}

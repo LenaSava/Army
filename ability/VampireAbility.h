@@ -2,6 +2,7 @@
 #define VAMPIRE_ABILITY_H
 
 #include "Ability.h"
+#include "../state/VampireState.h"
 
 class VampireAbility : public Ability {
     public:
@@ -10,7 +11,9 @@ class VampireAbility : public Ability {
 
         void attack(Unit* enemy);
         void counterAttack(Unit* enemy);
-        virtual void stealHP(Unit* enemy);
+        void stealHP(Unit* enemy);
+
+        void convert(Unit* enemy);
 
         virtual ~VampireAbility();
 

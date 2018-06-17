@@ -1,3 +1,4 @@
+
 #include "Unit.h"
 
 Unit::Unit(const char* title, int hitPoints, int damage)
@@ -7,6 +8,7 @@ Unit::Unit(const char* title, int hitPoints, int damage)
 Unit::~Unit() {
     delete(this->state);
     delete(this->ability);
+    std::cout << "Unit destructor" << std::endl;
 }
 
 void Unit::ensureIsAlive() {
@@ -44,27 +46,42 @@ void Unit::takeMagicDamage(int dmg) {
 void Unit::attack(Unit* enemy) {
     this->ability->attack(enemy);
 }
+
+void Unit::convert(Unit* enemy) {
+    this->ability->convert(enemy);
+}
+void Unit::turnMySelf() {
+    this->ability->turnMySelf();
+}
+
 void Unit::counterAttack(Unit* enemy) {
     this->ability->counterAttack(enemy);
 }
-void Unit::setAbility(Ability* newAbility) {
-    if (this->ability != NULL ) {
-        delete this->ability;
-    }
+bool Unit::getIsVampire() {
+    return this->state->getIsVampire();
+}
+
+bool Unit::getIsWolf() {
+    return this->state->getIsWolf();
+}
+
+bool Unit::getIsTurnWolf() {
+    return this->state->getIsTurnWolf();
+}
+
+void Unit::changeAbility(Ability* newAbility) {
     this->ability = newAbility;
 }
-void Unit::setState(State* newState) {
-    if ( this->state != NULL) {
-        delete this->state;
-    }
+
+void Unit::changeState(State* newState) {
+    delete(this->state);
     this->state = newState;
 }
-//void Unit::setTitile(const char* NewName) {
-//    getTitle()= NewName;
-//}
 
 void Unit::PrintDescription() {
     std::cout << "Unit name is " << this->state->getTitle()
      << " His HitPoints " << this->state->getHitPoints()
-              << " And Damage " << this->state->getDamage() << std::endl;
+              << " And Damage " << this->state->getDamage() <<
+              std::endl;
+
 };
