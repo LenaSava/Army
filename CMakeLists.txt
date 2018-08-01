@@ -11,48 +11,56 @@ include_directories(state)
 include_directories(unit)
 
 add_executable(army
-    ability/Ability.cpp
-    ability/Ability.h
-    ability/DefaultAbility.cpp
-    ability/DefaultAbility.h
-    ability/MagicAbility.cpp
-    ability/MagicAbility.h
-    ability/RogueAbility.cpp
-    ability/RogueAbility.h
-    ability/VampireAbility.cpp
-    ability/VampireAbility.h
+        ability/Ability.cpp
+        ability/Ability.h
+        ability/DefaultAbility.cpp
+        ability/DefaultAbility.h
+        ability/MagicAbility.cpp
+        ability/MagicAbility.h
+        ability/RogueAbility.cpp
+        ability/RogueAbility.h
+        ability/VampireAbility.cpp
+        ability/VampireAbility.h
         ability/WerewolfAbility.cpp
-    spell/FireBall.cpp
-    spell/FireBall.h
-    spell/Heal.cpp
-    spell/Heal.h
-    spell/Spell.cpp
-    spell/Spell.h
-    spellcaster/SpellCaster.cpp
-    spellcaster/SpellCaster.h
-    spellcaster/Wizard.cpp
-    spellcaster/Wizard.h
-    state/BerserkerState.cpp
-    state/BerserkerState.h
-        state/VampireState.h
-        state/VampireState.cpp
+        ability/WerewolfAbility.h
+        ability/WizardAbility.cpp
+        ability/WizardAbility.h
+        spell/FireBall.cpp
+        spell/FireBall.h
+        spell/Heal.cpp
+        spell/Heal.h
+        spell/Spell.cpp
+        spell/Spell.h
+        spell/SpellBook.cpp
+        spell/SpellBook.h
+        spellcaster/SpellCaster.cpp
+        spellcaster/SpellCaster.h
+        spellcaster/Wizard.cpp
+        spellcaster/Wizard.h
+        state/BerserkerState.cpp
+        state/BerserkerState.h
         state/MagicState.cpp
-        state/WerewolfState.cpp
+        state/MagicState.h
+        state/State.cpp
+        state/State.h
         state/TurnWolfState.cpp
-    state/MagicState.h
-    state/State.cpp
-    state/State.h
-    unit/Berserker.cpp
-    unit/Berserker.h
-    unit/Rogue.cpp
-    unit/Rogue.h
-    unit/Soldier.cpp
-    unit/Soldier.h
-    unit/Unit.cpp
-    unit/Unit.h
-    unit/Vampire.cpp
-    unit/Vampire.h
+        state/TurnWolfState.h
+        state/VampireState.cpp
+        state/VampireState.h
+        state/WerewolfState.cpp
+        state/WerewolfState.h
+        unit/Berserker.cpp
+        unit/Berserker.h
+        unit/Rogue.cpp
+        unit/Rogue.h
+        unit/Soldier.cpp
+        unit/Soldier.h
+        unit/Unit.cpp
+        unit/Unit.h
+        unit/Vampire.cpp
+        unit/Vampire.h
         unit/Werewolf.cpp
+        unit/Werewolf.h
         Army.h
-    exceptions.h
-    main.cpp src/Exlibs.cpp)
+        exceptions.h
+        main.cpp)

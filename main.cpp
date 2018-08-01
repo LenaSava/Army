@@ -8,10 +8,10 @@ int main() {
     Soldier* capitanAmerika = new Soldier("CapAmerica", 100, 25);
     Rogue* razboynik = new Rogue("Razboynik", 100, 5);
     Unit* lev = new Unit("Lev", 100, 7);
-    Wizard* gendalf = new Wizard("Gendalf", 100, 15, 100);
+    Wizard* gendalf = new Wizard("Gendalf", 100, 15, 40);
     Berserker* viking = new Berserker("Viking", 100, 20);
-    Vampire* vlad = new Vampire("Vlad", 150, 30);
-    Werewolf* andy = new Werewolf("Andy", 150, 30);
+    Vampire* vlad = new Vampire("Vampire", 150, 30);
+    Werewolf* andy = new Werewolf("Werewolf", 150, 30);
 
 
     capitanAmerika->PrintDescription();
@@ -22,19 +22,17 @@ int main() {
     vlad->PrintDescription();
     andy->PrintDescription();
 
-//    razboynik->attack(vlad);
 
-    andy->convert(lev);
 
-    gendalf->attack(vlad);
-    gendalf->cast(lev);
+    gendalf->attack(andy);
+    
 
 
 
 
-    vlad->PrintDescription();
-    lev->PrintDescription();
+    andy->PrintDescription();
     gendalf->PrintDescription();
+
 
 
     return 0;

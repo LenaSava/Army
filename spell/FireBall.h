@@ -2,12 +2,13 @@
 #define FIRE_BALL_H
 
 #include "Spell.h"
+#include "SpellBook.h"
 
 class FireBall : public Spell {
     public:
-        FireBall(int actionPoints, int cost);
+        FireBall(int actionPoints, int cost, SpellBook* magicBook);
         virtual ~FireBall();
-        virtual void action(Unit* target);
+        void action(Unit* target, double SpellPower);
 };
 
 #endif // FIRE_BALL_H
