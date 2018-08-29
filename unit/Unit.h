@@ -3,6 +3,7 @@
 
 #include "../state/State.h"
 #include "../ability/Ability.h"
+#include "../state/MagicState.h"
 
 class Ability;
 class State;

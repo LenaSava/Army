@@ -81,7 +81,7 @@ void Unit::changeState(State* newState) {
 void Unit::PrintDescription() {
     std::cout << "Unit name is " << this->state->getTitle()
      << " His HitPoints " << this->state->getHitPoints()
-              << " And Damage " << this->state->getDamage() <<
-              std::endl;
+              << " And Damage " << this->state->getDamage()
+              <<  std::endl;
 
 };

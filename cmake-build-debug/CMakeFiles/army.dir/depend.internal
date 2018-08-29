@@ -5,6 +5,7 @@ CMakeFiles/army.dir/ability/Ability.cpp.o
  /Users/lenkasava/Desktop/army/ability/Ability.cpp
  /Users/lenkasava/Desktop/army/ability/Ability.h
  /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
  /Users/lenkasava/Desktop/army/unit/Unit.h
 CMakeFiles/army.dir/ability/DefaultAbility.cpp.o
@@ -12,6 +13,22 @@ CMakeFiles/army.dir/ability/DefaultAbility.cpp.o
  /Users/lenkasava/Desktop/army/ability/DefaultAbility.cpp
  /Users/lenkasava/Desktop/army/ability/DefaultAbility.h
  /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
+ /Users/lenkasava/Desktop/army/state/State.h
+ /Users/lenkasava/Desktop/army/unit/Unit.h
+CMakeFiles/army.dir/ability/HealerAbility.cpp.o
+ /Users/lenkasava/Desktop/army/ability/Ability.h
+ /Users/lenkasava/Desktop/army/ability/DefaultAbility.h
+ /Users/lenkasava/Desktop/army/ability/HealerAbility.cpp
+ /Users/lenkasava/Desktop/army/ability/HealerAbility.h
+ /Users/lenkasava/Desktop/army/ability/MagicAbility.h
+ /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/spell/FireBall.h
+ /Users/lenkasava/Desktop/army/spell/Heal.h
+ /Users/lenkasava/Desktop/army/spell/Spell.h
+ /Users/lenkasava/Desktop/army/spell/SpellBook.h
+ /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
  /Users/lenkasava/Desktop/army/unit/Unit.h
 CMakeFiles/army.dir/ability/MagicAbility.cpp.o
@@ -28,11 +45,27 @@ CMakeFiles/army.dir/ability/MagicAbility.cpp.o
  /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
  /Users/lenkasava/Desktop/army/unit/Unit.h
+CMakeFiles/army.dir/ability/PriestAbility.cpp.o
+ /Users/lenkasava/Desktop/army/ability/Ability.h
+ /Users/lenkasava/Desktop/army/ability/DefaultAbility.h
+ /Users/lenkasava/Desktop/army/ability/MagicAbility.h
+ /Users/lenkasava/Desktop/army/ability/PriestAbility.cpp
+ /Users/lenkasava/Desktop/army/ability/PriestAbility.h
+ /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/spell/FireBall.h
+ /Users/lenkasava/Desktop/army/spell/Heal.h
+ /Users/lenkasava/Desktop/army/spell/Spell.h
+ /Users/lenkasava/Desktop/army/spell/SpellBook.h
+ /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
+ /Users/lenkasava/Desktop/army/state/State.h
+ /Users/lenkasava/Desktop/army/unit/Unit.h
 CMakeFiles/army.dir/ability/RogueAbility.cpp.o
  /Users/lenkasava/Desktop/army/ability/Ability.h
  /Users/lenkasava/Desktop/army/ability/RogueAbility.cpp
  /Users/lenkasava/Desktop/army/ability/RogueAbility.h
  /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
  /Users/lenkasava/Desktop/army/unit/Unit.h
 CMakeFiles/army.dir/ability/VampireAbility.cpp.o
@@ -40,14 +73,34 @@ CMakeFiles/army.dir/ability/VampireAbility.cpp.o
  /Users/lenkasava/Desktop/army/ability/VampireAbility.cpp
  /Users/lenkasava/Desktop/army/ability/VampireAbility.h
  /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
  /Users/lenkasava/Desktop/army/state/VampireState.h
+ /Users/lenkasava/Desktop/army/unit/Unit.h
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o
+ /Users/lenkasava/Desktop/army/ability/Ability.h
+ /Users/lenkasava/Desktop/army/ability/DefaultAbility.h
+ /Users/lenkasava/Desktop/army/ability/MagicAbility.h
+ /Users/lenkasava/Desktop/army/ability/WarlockAbility.cpp
+ /Users/lenkasava/Desktop/army/ability/WarlockAbility.h
+ /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/spell/FireBall.h
+ /Users/lenkasava/Desktop/army/spell/Heal.h
+ /Users/lenkasava/Desktop/army/spell/Spell.h
+ /Users/lenkasava/Desktop/army/spell/SpellBook.h
+ /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
+ /Users/lenkasava/Desktop/army/spellcaster/Warlock.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
+ /Users/lenkasava/Desktop/army/state/State.h
+ /Users/lenkasava/Desktop/army/unit/Demon.h
+ /Users/lenkasava/Desktop/army/unit/Soldier.h
  /Users/lenkasava/Desktop/army/unit/Unit.h
 CMakeFiles/army.dir/ability/WerewolfAbility.cpp.o
  /Users/lenkasava/Desktop/army/ability/Ability.h
  /Users/lenkasava/Desktop/army/ability/WerewolfAbility.cpp
  /Users/lenkasava/Desktop/army/ability/WerewolfAbility.h
  /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
  /Users/lenkasava/Desktop/army/state/TurnWolfState.h
  /Users/lenkasava/Desktop/army/state/WerewolfState.h
@@ -71,18 +124,25 @@ CMakeFiles/army.dir/main.cpp.o
  /Users/lenkasava/Desktop/army/Army.h
  /Users/lenkasava/Desktop/army/ability/Ability.h
  /Users/lenkasava/Desktop/army/ability/DefaultAbility.h
+ /Users/lenkasava/Desktop/army/ability/HealerAbility.h
  /Users/lenkasava/Desktop/army/ability/MagicAbility.h
+ /Users/lenkasava/Desktop/army/ability/PriestAbility.h
  /Users/lenkasava/Desktop/army/ability/RogueAbility.h
  /Users/lenkasava/Desktop/army/ability/VampireAbility.h
+ /Users/lenkasava/Desktop/army/ability/WarlockAbility.h
  /Users/lenkasava/Desktop/army/ability/WerewolfAbility.h
  /Users/lenkasava/Desktop/army/ability/WizardAbility.h
  /Users/lenkasava/Desktop/army/exceptions.h
  /Users/lenkasava/Desktop/army/main.cpp
  /Users/lenkasava/Desktop/army/spell/FireBall.h
+ /Users/lenkasava/Desktop/army/spell/Fireball.h
  /Users/lenkasava/Desktop/army/spell/Heal.h
  /Users/lenkasava/Desktop/army/spell/Spell.h
  /Users/lenkasava/Desktop/army/spell/SpellBook.h
+ /Users/lenkasava/Desktop/army/spellcaster/Healer.h
+ /Users/lenkasava/Desktop/army/spellcaster/Priest.h
  /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
+ /Users/lenkasava/Desktop/army/spellcaster/Warlock.h
  /Users/lenkasava/Desktop/army/spellcaster/Wizard.h
  /Users/lenkasava/Desktop/army/state/BerserkerState.h
  /Users/lenkasava/Desktop/army/state/MagicState.h
@@ -91,6 +151,7 @@ CMakeFiles/army.dir/main.cpp.o
  /Users/lenkasava/Desktop/army/state/VampireState.h
  /Users/lenkasava/Desktop/army/state/WerewolfState.h
  /Users/lenkasava/Desktop/army/unit/Berserker.h
+ /Users/lenkasava/Desktop/army/unit/Demon.h
  /Users/lenkasava/Desktop/army/unit/Rogue.h
  /Users/lenkasava/Desktop/army/unit/Soldier.h
  /Users/lenkasava/Desktop/army/unit/Unit.h
@@ -104,6 +165,7 @@ CMakeFiles/army.dir/spell/FireBall.cpp.o
  /Users/lenkasava/Desktop/army/spell/Heal.h
  /Users/lenkasava/Desktop/army/spell/Spell.h
  /Users/lenkasava/Desktop/army/spell/SpellBook.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
  /Users/lenkasava/Desktop/army/unit/Unit.h
 CMakeFiles/army.dir/spell/Heal.cpp.o
@@ -112,6 +174,7 @@ CMakeFiles/army.dir/spell/Heal.cpp.o
  /Users/lenkasava/Desktop/army/spell/Heal.cpp
  /Users/lenkasava/Desktop/army/spell/Heal.h
  /Users/lenkasava/Desktop/army/spell/Spell.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
  /Users/lenkasava/Desktop/army/unit/Unit.h
 CMakeFiles/army.dir/spell/Spell.cpp.o
@@ -119,6 +182,7 @@ CMakeFiles/army.dir/spell/Spell.cpp.o
  /Users/lenkasava/Desktop/army/exceptions.h
  /Users/lenkasava/Desktop/army/spell/Spell.cpp
  /Users/lenkasava/Desktop/army/spell/Spell.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
  /Users/lenkasava/Desktop/army/unit/Unit.h
 CMakeFiles/army.dir/spell/SpellBook.cpp.o
@@ -129,6 +193,40 @@ CMakeFiles/army.dir/spell/SpellBook.cpp.o
  /Users/lenkasava/Desktop/army/spell/Spell.h
  /Users/lenkasava/Desktop/army/spell/SpellBook.cpp
  /Users/lenkasava/Desktop/army/spell/SpellBook.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
+ /Users/lenkasava/Desktop/army/state/State.h
+ /Users/lenkasava/Desktop/army/unit/Unit.h
+CMakeFiles/army.dir/spellcaster/Healer.cpp.o
+ /Users/lenkasava/Desktop/army/ability/Ability.h
+ /Users/lenkasava/Desktop/army/ability/DefaultAbility.h
+ /Users/lenkasava/Desktop/army/ability/HealerAbility.h
+ /Users/lenkasava/Desktop/army/ability/MagicAbility.h
+ /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/spell/FireBall.h
+ /Users/lenkasava/Desktop/army/spell/Heal.h
+ /Users/lenkasava/Desktop/army/spell/Spell.h
+ /Users/lenkasava/Desktop/army/spell/SpellBook.h
+ /Users/lenkasava/Desktop/army/spellcaster/Healer.cpp
+ /Users/lenkasava/Desktop/army/spellcaster/Healer.h
+ /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
+ /Users/lenkasava/Desktop/army/state/State.h
+ /Users/lenkasava/Desktop/army/unit/Unit.h
+CMakeFiles/army.dir/spellcaster/Priest.cpp.o
+ /Users/lenkasava/Desktop/army/ability/Ability.h
+ /Users/lenkasava/Desktop/army/ability/DefaultAbility.h
+ /Users/lenkasava/Desktop/army/ability/MagicAbility.h
+ /Users/lenkasava/Desktop/army/ability/PriestAbility.h
+ /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/spell/FireBall.h
+ /Users/lenkasava/Desktop/army/spell/Fireball.h
+ /Users/lenkasava/Desktop/army/spell/Heal.h
+ /Users/lenkasava/Desktop/army/spell/Spell.h
+ /Users/lenkasava/Desktop/army/spell/SpellBook.h
+ /Users/lenkasava/Desktop/army/spellcaster/Priest.cpp
+ /Users/lenkasava/Desktop/army/spellcaster/Priest.h
+ /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
  /Users/lenkasava/Desktop/army/unit/Unit.h
 CMakeFiles/army.dir/spellcaster/SpellCaster.cpp.o
@@ -144,6 +242,24 @@ CMakeFiles/army.dir/spellcaster/SpellCaster.cpp.o
  /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
  /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
+ /Users/lenkasava/Desktop/army/unit/Unit.h
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o
+ /Users/lenkasava/Desktop/army/ability/Ability.h
+ /Users/lenkasava/Desktop/army/ability/DefaultAbility.h
+ /Users/lenkasava/Desktop/army/ability/MagicAbility.h
+ /Users/lenkasava/Desktop/army/ability/WarlockAbility.h
+ /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/spell/FireBall.h
+ /Users/lenkasava/Desktop/army/spell/Heal.h
+ /Users/lenkasava/Desktop/army/spell/Spell.h
+ /Users/lenkasava/Desktop/army/spell/SpellBook.h
+ /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
+ /Users/lenkasava/Desktop/army/spellcaster/Warlock.cpp
+ /Users/lenkasava/Desktop/army/spellcaster/Warlock.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
+ /Users/lenkasava/Desktop/army/state/State.h
+ /Users/lenkasava/Desktop/army/unit/Demon.h
+ /Users/lenkasava/Desktop/army/unit/Soldier.h
  /Users/lenkasava/Desktop/army/unit/Unit.h
 CMakeFiles/army.dir/spellcaster/Wizard.cpp.o
  /Users/lenkasava/Desktop/army/ability/Ability.h
@@ -194,14 +310,34 @@ CMakeFiles/army.dir/unit/Berserker.cpp.o
  /Users/lenkasava/Desktop/army/ability/DefaultAbility.h
  /Users/lenkasava/Desktop/army/exceptions.h
  /Users/lenkasava/Desktop/army/state/BerserkerState.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
  /Users/lenkasava/Desktop/army/unit/Berserker.cpp
  /Users/lenkasava/Desktop/army/unit/Berserker.h
+ /Users/lenkasava/Desktop/army/unit/Unit.h
+CMakeFiles/army.dir/unit/Demon.cpp.o
+ /Users/lenkasava/Desktop/army/ability/Ability.h
+ /Users/lenkasava/Desktop/army/ability/DefaultAbility.h
+ /Users/lenkasava/Desktop/army/ability/MagicAbility.h
+ /Users/lenkasava/Desktop/army/ability/WarlockAbility.h
+ /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/spell/FireBall.h
+ /Users/lenkasava/Desktop/army/spell/Heal.h
+ /Users/lenkasava/Desktop/army/spell/Spell.h
+ /Users/lenkasava/Desktop/army/spell/SpellBook.h
+ /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
+ /Users/lenkasava/Desktop/army/spellcaster/Warlock.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
+ /Users/lenkasava/Desktop/army/state/State.h
+ /Users/lenkasava/Desktop/army/unit/Demon.cpp
+ /Users/lenkasava/Desktop/army/unit/Demon.h
+ /Users/lenkasava/Desktop/army/unit/Soldier.h
  /Users/lenkasava/Desktop/army/unit/Unit.h
 CMakeFiles/army.dir/unit/Rogue.cpp.o
  /Users/lenkasava/Desktop/army/ability/Ability.h
  /Users/lenkasava/Desktop/army/ability/RogueAbility.h
  /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
  /Users/lenkasava/Desktop/army/unit/Rogue.cpp
  /Users/lenkasava/Desktop/army/unit/Rogue.h
@@ -210,6 +346,7 @@ CMakeFiles/army.dir/unit/Soldier.cpp.o
  /Users/lenkasava/Desktop/army/ability/Ability.h
  /Users/lenkasava/Desktop/army/ability/DefaultAbility.h
  /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
  /Users/lenkasava/Desktop/army/unit/Soldier.cpp
  /Users/lenkasava/Desktop/army/unit/Soldier.h
@@ -217,6 +354,7 @@ CMakeFiles/army.dir/unit/Soldier.cpp.o
 CMakeFiles/army.dir/unit/Unit.cpp.o
  /Users/lenkasava/Desktop/army/ability/Ability.h
  /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
  /Users/lenkasava/Desktop/army/unit/Unit.cpp
  /Users/lenkasava/Desktop/army/unit/Unit.h
@@ -224,6 +362,7 @@ CMakeFiles/army.dir/unit/Vampire.cpp.o
  /Users/lenkasava/Desktop/army/ability/Ability.h
  /Users/lenkasava/Desktop/army/ability/VampireAbility.h
  /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
  /Users/lenkasava/Desktop/army/state/VampireState.h
  /Users/lenkasava/Desktop/army/unit/Unit.h
@@ -233,6 +372,7 @@ CMakeFiles/army.dir/unit/Werewolf.cpp.o
  /Users/lenkasava/Desktop/army/ability/Ability.h
  /Users/lenkasava/Desktop/army/ability/WerewolfAbility.h
  /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
  /Users/lenkasava/Desktop/army/state/TurnWolfState.h
  /Users/lenkasava/Desktop/army/state/WerewolfState.h

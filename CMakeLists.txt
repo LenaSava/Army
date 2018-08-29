@@ -9,6 +9,7 @@ include_directories(spell)
 include_directories(spellcaster)
 include_directories(state)
 include_directories(unit)
+include_directories(tests)
 
 add_executable(army
         ability/Ability.cpp
@@ -25,6 +26,8 @@ add_executable(army
         ability/WerewolfAbility.h
         ability/WizardAbility.cpp
         ability/WizardAbility.h
+        ability/HealerAbility.cpp
+        ability/PriestAbility.cpp
         spell/FireBall.cpp
         spell/FireBall.h
         spell/Heal.cpp
@@ -37,6 +40,8 @@ add_executable(army
         spellcaster/SpellCaster.h
         spellcaster/Wizard.cpp
         spellcaster/Wizard.h
+        spellcaster/Healer.cpp
+        spellcaster/Priest.cpp
         state/BerserkerState.cpp
         state/BerserkerState.h
         state/MagicState.cpp
@@ -63,4 +68,4 @@ add_executable(army
         unit/Werewolf.h
         Army.h
         exceptions.h
-        main.cpp)
+        main.cpp spellcaster/Warlock.cpp spellcaster/Warlock.h unit/Demon.cpp unit/Demon.h ability/WarlockAbility.cpp ability/WarlockAbility.h)

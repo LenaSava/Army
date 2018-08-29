@@ -12,8 +12,6 @@ SpellBook::~SpellBook() {}
 
 SpellBook::SpellBook(const SpellBook*) {}
 
-//SpellBook* SpellBook::operator= (const SpellBook*) {}
-
 SpellBook* SpellBook::Instance() {
     if ( !magicBook ) {
         magicBook = new SpellBook();

@@ -177,6 +177,33 @@ ability/DefaultAbility.cpp.s:
 	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/ability/DefaultAbility.cpp.s
 .PHONY : ability/DefaultAbility.cpp.s
 
+ability/HealerAbility.o: ability/HealerAbility.cpp.o
+
+.PHONY : ability/HealerAbility.o
+
+# target to build an object file
+ability/HealerAbility.cpp.o:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/ability/HealerAbility.cpp.o
+.PHONY : ability/HealerAbility.cpp.o
+
+ability/HealerAbility.i: ability/HealerAbility.cpp.i
+
+.PHONY : ability/HealerAbility.i
+
+# target to preprocess a source file
+ability/HealerAbility.cpp.i:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/ability/HealerAbility.cpp.i
+.PHONY : ability/HealerAbility.cpp.i
+
+ability/HealerAbility.s: ability/HealerAbility.cpp.s
+
+.PHONY : ability/HealerAbility.s
+
+# target to generate assembly for a file
+ability/HealerAbility.cpp.s:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/ability/HealerAbility.cpp.s
+.PHONY : ability/HealerAbility.cpp.s
+
 ability/MagicAbility.o: ability/MagicAbility.cpp.o
 
 .PHONY : ability/MagicAbility.o
@@ -203,6 +230,33 @@ ability/MagicAbility.s: ability/MagicAbility.cpp.s
 ability/MagicAbility.cpp.s:
 	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/ability/MagicAbility.cpp.s
 .PHONY : ability/MagicAbility.cpp.s
+
+ability/PriestAbility.o: ability/PriestAbility.cpp.o
+
+.PHONY : ability/PriestAbility.o
+
+# target to build an object file
+ability/PriestAbility.cpp.o:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/ability/PriestAbility.cpp.o
+.PHONY : ability/PriestAbility.cpp.o
+
+ability/PriestAbility.i: ability/PriestAbility.cpp.i
+
+.PHONY : ability/PriestAbility.i
+
+# target to preprocess a source file
+ability/PriestAbility.cpp.i:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/ability/PriestAbility.cpp.i
+.PHONY : ability/PriestAbility.cpp.i
+
+ability/PriestAbility.s: ability/PriestAbility.cpp.s
+
+.PHONY : ability/PriestAbility.s
+
+# target to generate assembly for a file
+ability/PriestAbility.cpp.s:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/ability/PriestAbility.cpp.s
+.PHONY : ability/PriestAbility.cpp.s
 
 ability/RogueAbility.o: ability/RogueAbility.cpp.o
 
@@ -257,6 +311,33 @@ ability/VampireAbility.s: ability/VampireAbility.cpp.s
 ability/VampireAbility.cpp.s:
 	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/ability/VampireAbility.cpp.s
 .PHONY : ability/VampireAbility.cpp.s
+
+ability/WarlockAbility.o: ability/WarlockAbility.cpp.o
+
+.PHONY : ability/WarlockAbility.o
+
+# target to build an object file
+ability/WarlockAbility.cpp.o:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/ability/WarlockAbility.cpp.o
+.PHONY : ability/WarlockAbility.cpp.o
+
+ability/WarlockAbility.i: ability/WarlockAbility.cpp.i
+
+.PHONY : ability/WarlockAbility.i
+
+# target to preprocess a source file
+ability/WarlockAbility.cpp.i:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/ability/WarlockAbility.cpp.i
+.PHONY : ability/WarlockAbility.cpp.i
+
+ability/WarlockAbility.s: ability/WarlockAbility.cpp.s
+
+.PHONY : ability/WarlockAbility.s
+
+# target to generate assembly for a file
+ability/WarlockAbility.cpp.s:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/ability/WarlockAbility.cpp.s
+.PHONY : ability/WarlockAbility.cpp.s
 
 ability/WerewolfAbility.o: ability/WerewolfAbility.cpp.o
 
@@ -447,6 +528,60 @@ spell/SpellBook.cpp.s:
 	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spell/SpellBook.cpp.s
 .PHONY : spell/SpellBook.cpp.s
 
+spellcaster/Healer.o: spellcaster/Healer.cpp.o
+
+.PHONY : spellcaster/Healer.o
+
+# target to build an object file
+spellcaster/Healer.cpp.o:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spellcaster/Healer.cpp.o
+.PHONY : spellcaster/Healer.cpp.o
+
+spellcaster/Healer.i: spellcaster/Healer.cpp.i
+
+.PHONY : spellcaster/Healer.i
+
+# target to preprocess a source file
+spellcaster/Healer.cpp.i:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spellcaster/Healer.cpp.i
+.PHONY : spellcaster/Healer.cpp.i
+
+spellcaster/Healer.s: spellcaster/Healer.cpp.s
+
+.PHONY : spellcaster/Healer.s
+
+# target to generate assembly for a file
+spellcaster/Healer.cpp.s:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spellcaster/Healer.cpp.s
+.PHONY : spellcaster/Healer.cpp.s
+
+spellcaster/Priest.o: spellcaster/Priest.cpp.o
+
+.PHONY : spellcaster/Priest.o
+
+# target to build an object file
+spellcaster/Priest.cpp.o:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spellcaster/Priest.cpp.o
+.PHONY : spellcaster/Priest.cpp.o
+
+spellcaster/Priest.i: spellcaster/Priest.cpp.i
+
+.PHONY : spellcaster/Priest.i
+
+# target to preprocess a source file
+spellcaster/Priest.cpp.i:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spellcaster/Priest.cpp.i
+.PHONY : spellcaster/Priest.cpp.i
+
+spellcaster/Priest.s: spellcaster/Priest.cpp.s
+
+.PHONY : spellcaster/Priest.s
+
+# target to generate assembly for a file
+spellcaster/Priest.cpp.s:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spellcaster/Priest.cpp.s
+.PHONY : spellcaster/Priest.cpp.s
+
 spellcaster/SpellCaster.o: spellcaster/SpellCaster.cpp.o
 
 .PHONY : spellcaster/SpellCaster.o
@@ -473,6 +608,33 @@ spellcaster/SpellCaster.s: spellcaster/SpellCaster.cpp.s
 spellcaster/SpellCaster.cpp.s:
 	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spellcaster/SpellCaster.cpp.s
 .PHONY : spellcaster/SpellCaster.cpp.s
+
+spellcaster/Warlock.o: spellcaster/Warlock.cpp.o
+
+.PHONY : spellcaster/Warlock.o
+
+# target to build an object file
+spellcaster/Warlock.cpp.o:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spellcaster/Warlock.cpp.o
+.PHONY : spellcaster/Warlock.cpp.o
+
+spellcaster/Warlock.i: spellcaster/Warlock.cpp.i
+
+.PHONY : spellcaster/Warlock.i
+
+# target to preprocess a source file
+spellcaster/Warlock.cpp.i:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spellcaster/Warlock.cpp.i
+.PHONY : spellcaster/Warlock.cpp.i
+
+spellcaster/Warlock.s: spellcaster/Warlock.cpp.s
+
+.PHONY : spellcaster/Warlock.s
+
+# target to generate assembly for a file
+spellcaster/Warlock.cpp.s:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spellcaster/Warlock.cpp.s
+.PHONY : spellcaster/Warlock.cpp.s
 
 spellcaster/Wizard.o: spellcaster/Wizard.cpp.o
 
@@ -690,6 +852,33 @@ unit/Berserker.cpp.s:
 	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/unit/Berserker.cpp.s
 .PHONY : unit/Berserker.cpp.s
 
+unit/Demon.o: unit/Demon.cpp.o
+
+.PHONY : unit/Demon.o
+
+# target to build an object file
+unit/Demon.cpp.o:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/unit/Demon.cpp.o
+.PHONY : unit/Demon.cpp.o
+
+unit/Demon.i: unit/Demon.cpp.i
+
+.PHONY : unit/Demon.i
+
+# target to preprocess a source file
+unit/Demon.cpp.i:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/unit/Demon.cpp.i
+.PHONY : unit/Demon.cpp.i
+
+unit/Demon.s: unit/Demon.cpp.s
+
+.PHONY : unit/Demon.s
+
+# target to generate assembly for a file
+unit/Demon.cpp.s:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/unit/Demon.cpp.s
+.PHONY : unit/Demon.cpp.s
+
 unit/Rogue.o: unit/Rogue.cpp.o
 
 .PHONY : unit/Rogue.o
@@ -840,15 +1029,24 @@ help:
 	@echo "... ability/DefaultAbility.o"
 	@echo "... ability/DefaultAbility.i"
 	@echo "... ability/DefaultAbility.s"
+	@echo "... ability/HealerAbility.o"
+	@echo "... ability/HealerAbility.i"
+	@echo "... ability/HealerAbility.s"
 	@echo "... ability/MagicAbility.o"
 	@echo "... ability/MagicAbility.i"
 	@echo "... ability/MagicAbility.s"
+	@echo "... ability/PriestAbility.o"
+	@echo "... ability/PriestAbility.i"
+	@echo "... ability/PriestAbility.s"
 	@echo "... ability/RogueAbility.o"
 	@echo "... ability/RogueAbility.i"
 	@echo "... ability/RogueAbility.s"
 	@echo "... ability/VampireAbility.o"
 	@echo "... ability/VampireAbility.i"
 	@echo "... ability/VampireAbility.s"
+	@echo "... ability/WarlockAbility.o"
+	@echo "... ability/WarlockAbility.i"
+	@echo "... ability/WarlockAbility.s"
 	@echo "... ability/WerewolfAbility.o"
 	@echo "... ability/WerewolfAbility.i"
 	@echo "... ability/WerewolfAbility.s"
@@ -870,9 +1068,18 @@ help:
 	@echo "... spell/SpellBook.o"
 	@echo "... spell/SpellBook.i"
 	@echo "... spell/SpellBook.s"
+	@echo "... spellcaster/Healer.o"
+	@echo "... spellcaster/Healer.i"
+	@echo "... spellcaster/Healer.s"
+	@echo "... spellcaster/Priest.o"
+	@echo "... spellcaster/Priest.i"
+	@echo "... spellcaster/Priest.s"
 	@echo "... spellcaster/SpellCaster.o"
 	@echo "... spellcaster/SpellCaster.i"
 	@echo "... spellcaster/SpellCaster.s"
+	@echo "... spellcaster/Warlock.o"
+	@echo "... spellcaster/Warlock.i"
+	@echo "... spellcaster/Warlock.s"
 	@echo "... spellcaster/Wizard.o"
 	@echo "... spellcaster/Wizard.i"
 	@echo "... spellcaster/Wizard.s"
@@ -897,6 +1104,9 @@ help:
 	@echo "... unit/Berserker.o"
 	@echo "... unit/Berserker.i"
 	@echo "... unit/Berserker.s"
+	@echo "... unit/Demon.o"
+	@echo "... unit/Demon.i"
+	@echo "... unit/Demon.s"
 	@echo "... unit/Rogue.o"
 	@echo "... unit/Rogue.i"
 	@echo "... unit/Rogue.s"

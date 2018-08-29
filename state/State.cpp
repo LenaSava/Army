@@ -34,6 +34,7 @@ int State::getDamage() const {
     return this->damage;
 }
 
+
 void State::addHitPoints(int hp) {
     this->ensureIsAlive();
 

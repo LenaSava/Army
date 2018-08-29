@@ -16,7 +16,7 @@ typedef enum{
 } spells;
 
 class SpellBook{
-private:
+protected:
     std::map<spells, Spell*> spellsMap;
     static SpellBook* magicBook;
 
@@ -24,7 +24,6 @@ private:
     ~SpellBook();
 
     SpellBook(const SpellBook*);
-//    SpellBook* operator= (const SpellBook*);
 
 public:
     static SpellBook* Instance();

@@ -4,6 +4,7 @@
 CMakeFiles/army.dir/ability/Ability.cpp.o: ../ability/Ability.cpp
 CMakeFiles/army.dir/ability/Ability.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/ability/Ability.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/ability/Ability.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/ability/Ability.cpp.o: ../state/State.h
 CMakeFiles/army.dir/ability/Ability.cpp.o: ../unit/Unit.h
 
@@ -11,8 +12,24 @@ CMakeFiles/army.dir/ability/DefaultAbility.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/ability/DefaultAbility.cpp.o: ../ability/DefaultAbility.cpp
 CMakeFiles/army.dir/ability/DefaultAbility.cpp.o: ../ability/DefaultAbility.h
 CMakeFiles/army.dir/ability/DefaultAbility.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/ability/DefaultAbility.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/ability/DefaultAbility.cpp.o: ../state/State.h
 CMakeFiles/army.dir/ability/DefaultAbility.cpp.o: ../unit/Unit.h
+
+CMakeFiles/army.dir/ability/HealerAbility.cpp.o: ../ability/Ability.h
+CMakeFiles/army.dir/ability/HealerAbility.cpp.o: ../ability/DefaultAbility.h
+CMakeFiles/army.dir/ability/HealerAbility.cpp.o: ../ability/HealerAbility.cpp
+CMakeFiles/army.dir/ability/HealerAbility.cpp.o: ../ability/HealerAbility.h
+CMakeFiles/army.dir/ability/HealerAbility.cpp.o: ../ability/MagicAbility.h
+CMakeFiles/army.dir/ability/HealerAbility.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/ability/HealerAbility.cpp.o: ../spell/FireBall.h
+CMakeFiles/army.dir/ability/HealerAbility.cpp.o: ../spell/Heal.h
+CMakeFiles/army.dir/ability/HealerAbility.cpp.o: ../spell/Spell.h
+CMakeFiles/army.dir/ability/HealerAbility.cpp.o: ../spell/SpellBook.h
+CMakeFiles/army.dir/ability/HealerAbility.cpp.o: ../spellcaster/SpellCaster.h
+CMakeFiles/army.dir/ability/HealerAbility.cpp.o: ../state/MagicState.h
+CMakeFiles/army.dir/ability/HealerAbility.cpp.o: ../state/State.h
+CMakeFiles/army.dir/ability/HealerAbility.cpp.o: ../unit/Unit.h
 
 CMakeFiles/army.dir/ability/MagicAbility.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/ability/MagicAbility.cpp.o: ../ability/DefaultAbility.h
@@ -28,10 +45,26 @@ CMakeFiles/army.dir/ability/MagicAbility.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/ability/MagicAbility.cpp.o: ../state/State.h
 CMakeFiles/army.dir/ability/MagicAbility.cpp.o: ../unit/Unit.h
 
+CMakeFiles/army.dir/ability/PriestAbility.cpp.o: ../ability/Ability.h
+CMakeFiles/army.dir/ability/PriestAbility.cpp.o: ../ability/DefaultAbility.h
+CMakeFiles/army.dir/ability/PriestAbility.cpp.o: ../ability/MagicAbility.h
+CMakeFiles/army.dir/ability/PriestAbility.cpp.o: ../ability/PriestAbility.cpp
+CMakeFiles/army.dir/ability/PriestAbility.cpp.o: ../ability/PriestAbility.h
+CMakeFiles/army.dir/ability/PriestAbility.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/ability/PriestAbility.cpp.o: ../spell/FireBall.h
+CMakeFiles/army.dir/ability/PriestAbility.cpp.o: ../spell/Heal.h
+CMakeFiles/army.dir/ability/PriestAbility.cpp.o: ../spell/Spell.h
+CMakeFiles/army.dir/ability/PriestAbility.cpp.o: ../spell/SpellBook.h
+CMakeFiles/army.dir/ability/PriestAbility.cpp.o: ../spellcaster/SpellCaster.h
+CMakeFiles/army.dir/ability/PriestAbility.cpp.o: ../state/MagicState.h
+CMakeFiles/army.dir/ability/PriestAbility.cpp.o: ../state/State.h
+CMakeFiles/army.dir/ability/PriestAbility.cpp.o: ../unit/Unit.h
+
 CMakeFiles/army.dir/ability/RogueAbility.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/ability/RogueAbility.cpp.o: ../ability/RogueAbility.cpp
 CMakeFiles/army.dir/ability/RogueAbility.cpp.o: ../ability/RogueAbility.h
 CMakeFiles/army.dir/ability/RogueAbility.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/ability/RogueAbility.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/ability/RogueAbility.cpp.o: ../state/State.h
 CMakeFiles/army.dir/ability/RogueAbility.cpp.o: ../unit/Unit.h
 
@@ -39,14 +72,34 @@ CMakeFiles/army.dir/ability/VampireAbility.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/ability/VampireAbility.cpp.o: ../ability/VampireAbility.cpp
 CMakeFiles/army.dir/ability/VampireAbility.cpp.o: ../ability/VampireAbility.h
 CMakeFiles/army.dir/ability/VampireAbility.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/ability/VampireAbility.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/ability/VampireAbility.cpp.o: ../state/State.h
 CMakeFiles/army.dir/ability/VampireAbility.cpp.o: ../state/VampireState.h
 CMakeFiles/army.dir/ability/VampireAbility.cpp.o: ../unit/Unit.h
+
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o: ../ability/Ability.h
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o: ../ability/DefaultAbility.h
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o: ../ability/MagicAbility.h
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o: ../ability/WarlockAbility.cpp
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o: ../ability/WarlockAbility.h
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o: ../spell/FireBall.h
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o: ../spell/Heal.h
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o: ../spell/Spell.h
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o: ../spell/SpellBook.h
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o: ../spellcaster/SpellCaster.h
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o: ../spellcaster/Warlock.h
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o: ../state/MagicState.h
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o: ../state/State.h
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o: ../unit/Demon.h
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o: ../unit/Soldier.h
+CMakeFiles/army.dir/ability/WarlockAbility.cpp.o: ../unit/Unit.h
 
 CMakeFiles/army.dir/ability/WerewolfAbility.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/ability/WerewolfAbility.cpp.o: ../ability/WerewolfAbility.cpp
 CMakeFiles/army.dir/ability/WerewolfAbility.cpp.o: ../ability/WerewolfAbility.h
 CMakeFiles/army.dir/ability/WerewolfAbility.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/ability/WerewolfAbility.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/ability/WerewolfAbility.cpp.o: ../state/State.h
 CMakeFiles/army.dir/ability/WerewolfAbility.cpp.o: ../state/TurnWolfState.h
 CMakeFiles/army.dir/ability/WerewolfAbility.cpp.o: ../state/WerewolfState.h
@@ -70,18 +123,25 @@ CMakeFiles/army.dir/ability/WizardAbility.cpp.o: ../unit/Unit.h
 CMakeFiles/army.dir/main.cpp.o: ../Army.h
 CMakeFiles/army.dir/main.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/main.cpp.o: ../ability/DefaultAbility.h
+CMakeFiles/army.dir/main.cpp.o: ../ability/HealerAbility.h
 CMakeFiles/army.dir/main.cpp.o: ../ability/MagicAbility.h
+CMakeFiles/army.dir/main.cpp.o: ../ability/PriestAbility.h
 CMakeFiles/army.dir/main.cpp.o: ../ability/RogueAbility.h
 CMakeFiles/army.dir/main.cpp.o: ../ability/VampireAbility.h
+CMakeFiles/army.dir/main.cpp.o: ../ability/WarlockAbility.h
 CMakeFiles/army.dir/main.cpp.o: ../ability/WerewolfAbility.h
 CMakeFiles/army.dir/main.cpp.o: ../ability/WizardAbility.h
 CMakeFiles/army.dir/main.cpp.o: ../exceptions.h
 CMakeFiles/army.dir/main.cpp.o: ../main.cpp
 CMakeFiles/army.dir/main.cpp.o: ../spell/FireBall.h
+CMakeFiles/army.dir/main.cpp.o: ../spell/Fireball.h
 CMakeFiles/army.dir/main.cpp.o: ../spell/Heal.h
 CMakeFiles/army.dir/main.cpp.o: ../spell/Spell.h
 CMakeFiles/army.dir/main.cpp.o: ../spell/SpellBook.h
+CMakeFiles/army.dir/main.cpp.o: ../spellcaster/Healer.h
+CMakeFiles/army.dir/main.cpp.o: ../spellcaster/Priest.h
 CMakeFiles/army.dir/main.cpp.o: ../spellcaster/SpellCaster.h
+CMakeFiles/army.dir/main.cpp.o: ../spellcaster/Warlock.h
 CMakeFiles/army.dir/main.cpp.o: ../spellcaster/Wizard.h
 CMakeFiles/army.dir/main.cpp.o: ../state/BerserkerState.h
 CMakeFiles/army.dir/main.cpp.o: ../state/MagicState.h
@@ -90,6 +150,7 @@ CMakeFiles/army.dir/main.cpp.o: ../state/TurnWolfState.h
 CMakeFiles/army.dir/main.cpp.o: ../state/VampireState.h
 CMakeFiles/army.dir/main.cpp.o: ../state/WerewolfState.h
 CMakeFiles/army.dir/main.cpp.o: ../unit/Berserker.h
+CMakeFiles/army.dir/main.cpp.o: ../unit/Demon.h
 CMakeFiles/army.dir/main.cpp.o: ../unit/Rogue.h
 CMakeFiles/army.dir/main.cpp.o: ../unit/Soldier.h
 CMakeFiles/army.dir/main.cpp.o: ../unit/Unit.h
@@ -103,6 +164,7 @@ CMakeFiles/army.dir/spell/FireBall.cpp.o: ../spell/FireBall.h
 CMakeFiles/army.dir/spell/FireBall.cpp.o: ../spell/Heal.h
 CMakeFiles/army.dir/spell/FireBall.cpp.o: ../spell/Spell.h
 CMakeFiles/army.dir/spell/FireBall.cpp.o: ../spell/SpellBook.h
+CMakeFiles/army.dir/spell/FireBall.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/spell/FireBall.cpp.o: ../state/State.h
 CMakeFiles/army.dir/spell/FireBall.cpp.o: ../unit/Unit.h
 
@@ -111,6 +173,7 @@ CMakeFiles/army.dir/spell/Heal.cpp.o: ../exceptions.h
 CMakeFiles/army.dir/spell/Heal.cpp.o: ../spell/Heal.cpp
 CMakeFiles/army.dir/spell/Heal.cpp.o: ../spell/Heal.h
 CMakeFiles/army.dir/spell/Heal.cpp.o: ../spell/Spell.h
+CMakeFiles/army.dir/spell/Heal.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/spell/Heal.cpp.o: ../state/State.h
 CMakeFiles/army.dir/spell/Heal.cpp.o: ../unit/Unit.h
 
@@ -118,6 +181,7 @@ CMakeFiles/army.dir/spell/Spell.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/spell/Spell.cpp.o: ../exceptions.h
 CMakeFiles/army.dir/spell/Spell.cpp.o: ../spell/Spell.cpp
 CMakeFiles/army.dir/spell/Spell.cpp.o: ../spell/Spell.h
+CMakeFiles/army.dir/spell/Spell.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/spell/Spell.cpp.o: ../state/State.h
 CMakeFiles/army.dir/spell/Spell.cpp.o: ../unit/Unit.h
 
@@ -128,8 +192,42 @@ CMakeFiles/army.dir/spell/SpellBook.cpp.o: ../spell/Heal.h
 CMakeFiles/army.dir/spell/SpellBook.cpp.o: ../spell/Spell.h
 CMakeFiles/army.dir/spell/SpellBook.cpp.o: ../spell/SpellBook.cpp
 CMakeFiles/army.dir/spell/SpellBook.cpp.o: ../spell/SpellBook.h
+CMakeFiles/army.dir/spell/SpellBook.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/spell/SpellBook.cpp.o: ../state/State.h
 CMakeFiles/army.dir/spell/SpellBook.cpp.o: ../unit/Unit.h
+
+CMakeFiles/army.dir/spellcaster/Healer.cpp.o: ../ability/Ability.h
+CMakeFiles/army.dir/spellcaster/Healer.cpp.o: ../ability/DefaultAbility.h
+CMakeFiles/army.dir/spellcaster/Healer.cpp.o: ../ability/HealerAbility.h
+CMakeFiles/army.dir/spellcaster/Healer.cpp.o: ../ability/MagicAbility.h
+CMakeFiles/army.dir/spellcaster/Healer.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/spellcaster/Healer.cpp.o: ../spell/FireBall.h
+CMakeFiles/army.dir/spellcaster/Healer.cpp.o: ../spell/Heal.h
+CMakeFiles/army.dir/spellcaster/Healer.cpp.o: ../spell/Spell.h
+CMakeFiles/army.dir/spellcaster/Healer.cpp.o: ../spell/SpellBook.h
+CMakeFiles/army.dir/spellcaster/Healer.cpp.o: ../spellcaster/Healer.cpp
+CMakeFiles/army.dir/spellcaster/Healer.cpp.o: ../spellcaster/Healer.h
+CMakeFiles/army.dir/spellcaster/Healer.cpp.o: ../spellcaster/SpellCaster.h
+CMakeFiles/army.dir/spellcaster/Healer.cpp.o: ../state/MagicState.h
+CMakeFiles/army.dir/spellcaster/Healer.cpp.o: ../state/State.h
+CMakeFiles/army.dir/spellcaster/Healer.cpp.o: ../unit/Unit.h
+
+CMakeFiles/army.dir/spellcaster/Priest.cpp.o: ../ability/Ability.h
+CMakeFiles/army.dir/spellcaster/Priest.cpp.o: ../ability/DefaultAbility.h
+CMakeFiles/army.dir/spellcaster/Priest.cpp.o: ../ability/MagicAbility.h
+CMakeFiles/army.dir/spellcaster/Priest.cpp.o: ../ability/PriestAbility.h
+CMakeFiles/army.dir/spellcaster/Priest.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/spellcaster/Priest.cpp.o: ../spell/FireBall.h
+CMakeFiles/army.dir/spellcaster/Priest.cpp.o: ../spell/Fireball.h
+CMakeFiles/army.dir/spellcaster/Priest.cpp.o: ../spell/Heal.h
+CMakeFiles/army.dir/spellcaster/Priest.cpp.o: ../spell/Spell.h
+CMakeFiles/army.dir/spellcaster/Priest.cpp.o: ../spell/SpellBook.h
+CMakeFiles/army.dir/spellcaster/Priest.cpp.o: ../spellcaster/Priest.cpp
+CMakeFiles/army.dir/spellcaster/Priest.cpp.o: ../spellcaster/Priest.h
+CMakeFiles/army.dir/spellcaster/Priest.cpp.o: ../spellcaster/SpellCaster.h
+CMakeFiles/army.dir/spellcaster/Priest.cpp.o: ../state/MagicState.h
+CMakeFiles/army.dir/spellcaster/Priest.cpp.o: ../state/State.h
+CMakeFiles/army.dir/spellcaster/Priest.cpp.o: ../unit/Unit.h
 
 CMakeFiles/army.dir/spellcaster/SpellCaster.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/spellcaster/SpellCaster.cpp.o: ../ability/DefaultAbility.h
@@ -144,6 +242,24 @@ CMakeFiles/army.dir/spellcaster/SpellCaster.cpp.o: ../spellcaster/SpellCaster.h
 CMakeFiles/army.dir/spellcaster/SpellCaster.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/spellcaster/SpellCaster.cpp.o: ../state/State.h
 CMakeFiles/army.dir/spellcaster/SpellCaster.cpp.o: ../unit/Unit.h
+
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../ability/Ability.h
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../ability/DefaultAbility.h
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../ability/MagicAbility.h
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../ability/WarlockAbility.h
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../spell/FireBall.h
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../spell/Heal.h
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../spell/Spell.h
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../spell/SpellBook.h
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../spellcaster/SpellCaster.h
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../spellcaster/Warlock.cpp
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../spellcaster/Warlock.h
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../state/MagicState.h
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../state/State.h
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../unit/Demon.h
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../unit/Soldier.h
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../unit/Unit.h
 
 CMakeFiles/army.dir/spellcaster/Wizard.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/spellcaster/Wizard.cpp.o: ../ability/DefaultAbility.h
@@ -193,14 +309,34 @@ CMakeFiles/army.dir/unit/Berserker.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/unit/Berserker.cpp.o: ../ability/DefaultAbility.h
 CMakeFiles/army.dir/unit/Berserker.cpp.o: ../exceptions.h
 CMakeFiles/army.dir/unit/Berserker.cpp.o: ../state/BerserkerState.h
+CMakeFiles/army.dir/unit/Berserker.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/unit/Berserker.cpp.o: ../state/State.h
 CMakeFiles/army.dir/unit/Berserker.cpp.o: ../unit/Berserker.cpp
 CMakeFiles/army.dir/unit/Berserker.cpp.o: ../unit/Berserker.h
 CMakeFiles/army.dir/unit/Berserker.cpp.o: ../unit/Unit.h
 
+CMakeFiles/army.dir/unit/Demon.cpp.o: ../ability/Ability.h
+CMakeFiles/army.dir/unit/Demon.cpp.o: ../ability/DefaultAbility.h
+CMakeFiles/army.dir/unit/Demon.cpp.o: ../ability/MagicAbility.h
+CMakeFiles/army.dir/unit/Demon.cpp.o: ../ability/WarlockAbility.h
+CMakeFiles/army.dir/unit/Demon.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/unit/Demon.cpp.o: ../spell/FireBall.h
+CMakeFiles/army.dir/unit/Demon.cpp.o: ../spell/Heal.h
+CMakeFiles/army.dir/unit/Demon.cpp.o: ../spell/Spell.h
+CMakeFiles/army.dir/unit/Demon.cpp.o: ../spell/SpellBook.h
+CMakeFiles/army.dir/unit/Demon.cpp.o: ../spellcaster/SpellCaster.h
+CMakeFiles/army.dir/unit/Demon.cpp.o: ../spellcaster/Warlock.h
+CMakeFiles/army.dir/unit/Demon.cpp.o: ../state/MagicState.h
+CMakeFiles/army.dir/unit/Demon.cpp.o: ../state/State.h
+CMakeFiles/army.dir/unit/Demon.cpp.o: ../unit/Demon.cpp
+CMakeFiles/army.dir/unit/Demon.cpp.o: ../unit/Demon.h
+CMakeFiles/army.dir/unit/Demon.cpp.o: ../unit/Soldier.h
+CMakeFiles/army.dir/unit/Demon.cpp.o: ../unit/Unit.h
+
 CMakeFiles/army.dir/unit/Rogue.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/unit/Rogue.cpp.o: ../ability/RogueAbility.h
 CMakeFiles/army.dir/unit/Rogue.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/unit/Rogue.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/unit/Rogue.cpp.o: ../state/State.h
 CMakeFiles/army.dir/unit/Rogue.cpp.o: ../unit/Rogue.cpp
 CMakeFiles/army.dir/unit/Rogue.cpp.o: ../unit/Rogue.h
@@ -209,6 +345,7 @@ CMakeFiles/army.dir/unit/Rogue.cpp.o: ../unit/Unit.h
 CMakeFiles/army.dir/unit/Soldier.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/unit/Soldier.cpp.o: ../ability/DefaultAbility.h
 CMakeFiles/army.dir/unit/Soldier.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/unit/Soldier.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/unit/Soldier.cpp.o: ../state/State.h
 CMakeFiles/army.dir/unit/Soldier.cpp.o: ../unit/Soldier.cpp
 CMakeFiles/army.dir/unit/Soldier.cpp.o: ../unit/Soldier.h
@@ -216,6 +353,7 @@ CMakeFiles/army.dir/unit/Soldier.cpp.o: ../unit/Unit.h
 
 CMakeFiles/army.dir/unit/Unit.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/unit/Unit.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/unit/Unit.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/unit/Unit.cpp.o: ../state/State.h
 CMakeFiles/army.dir/unit/Unit.cpp.o: ../unit/Unit.cpp
 CMakeFiles/army.dir/unit/Unit.cpp.o: ../unit/Unit.h
@@ -223,6 +361,7 @@ CMakeFiles/army.dir/unit/Unit.cpp.o: ../unit/Unit.h
 CMakeFiles/army.dir/unit/Vampire.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/unit/Vampire.cpp.o: ../ability/VampireAbility.h
 CMakeFiles/army.dir/unit/Vampire.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/unit/Vampire.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/unit/Vampire.cpp.o: ../state/State.h
 CMakeFiles/army.dir/unit/Vampire.cpp.o: ../state/VampireState.h
 CMakeFiles/army.dir/unit/Vampire.cpp.o: ../unit/Unit.h
@@ -232,6 +371,7 @@ CMakeFiles/army.dir/unit/Vampire.cpp.o: ../unit/Vampire.h
 CMakeFiles/army.dir/unit/Werewolf.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/unit/Werewolf.cpp.o: ../ability/WerewolfAbility.h
 CMakeFiles/army.dir/unit/Werewolf.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/unit/Werewolf.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/unit/Werewolf.cpp.o: ../state/State.h
 CMakeFiles/army.dir/unit/Werewolf.cpp.o: ../state/TurnWolfState.h
 CMakeFiles/army.dir/unit/Werewolf.cpp.o: ../state/WerewolfState.h

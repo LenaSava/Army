@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/lenkasava/Desktop/army/. -I/Users/lenkasava/Desktop/army/ability -I/Users/lenkasava/Desktop/army/spell -I/Users/lenkasava/Desktop/army/spellcaster -I/Users/lenkasava/Desktop/army/state -I/Users/lenkasava/Desktop/army/unit 
+CXX_INCLUDES = -I/Users/lenkasava/Desktop/army/. -I/Users/lenkasava/Desktop/army/ability -I/Users/lenkasava/Desktop/army/spell -I/Users/lenkasava/Desktop/army/spellcaster -I/Users/lenkasava/Desktop/army/state -I/Users/lenkasava/Desktop/army/unit -I/Users/lenkasava/Desktop/army/tests 
 

@@ -1,7 +1,9 @@
 #include "Spell.h"
 
-Spell::Spell(int actionPoints, int cost, SpellBook* magicBook)
-    : actionPoints(actionPoints), cost(cost), magicBook(magicBook){}
+Spell::Spell(int actionPoints, int cost, SpellBook* magicBook) {
+    this->actionPoints = actionPoints;
+    this->cost = cost;
+}
 
 
 int Spell::getActionPoints() const {
@@ -14,10 +16,6 @@ int Spell::getCost() const {
 
 int Spell::getCombatSpell() const {
     return this->combatSpell;
-}
-
-SpellBook* Spell::getSpellBook() {
-    return this->magicBook;
 }
 
 Spell::~Spell() {

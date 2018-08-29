@@ -10,7 +10,6 @@ class Spell {
         int actionPoints;
         int cost;
         bool combatSpell = false;
-        SpellBook* magicBook;
 
     public:
         Spell(int actionPoints, int cost, SpellBook* magicBook);
@@ -23,7 +22,7 @@ class Spell {
 
         virtual void action(Unit* target, double SpellPower) = 0;
 
-    virtual ~Spell();
+        virtual ~Spell();
 };
 
 #endif // SPELL_H

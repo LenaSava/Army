@@ -4,6 +4,8 @@
 #include "Spell.h"
 #include "SpellBook.h"
 
+class SpellBook;
+
 class FireBall : public Spell {
     public:
         FireBall(int actionPoints, int cost, SpellBook* magicBook);

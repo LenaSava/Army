@@ -6,9 +6,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/lenkasava/Desktop/army/ability/Ability.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/ability/Ability.cpp.o"
   "/Users/lenkasava/Desktop/army/ability/DefaultAbility.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/ability/DefaultAbility.cpp.o"
+  "/Users/lenkasava/Desktop/army/ability/HealerAbility.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/ability/HealerAbility.cpp.o"
   "/Users/lenkasava/Desktop/army/ability/MagicAbility.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/ability/MagicAbility.cpp.o"
+  "/Users/lenkasava/Desktop/army/ability/PriestAbility.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/ability/PriestAbility.cpp.o"
   "/Users/lenkasava/Desktop/army/ability/RogueAbility.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/ability/RogueAbility.cpp.o"
   "/Users/lenkasava/Desktop/army/ability/VampireAbility.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/ability/VampireAbility.cpp.o"
+  "/Users/lenkasava/Desktop/army/ability/WarlockAbility.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/ability/WarlockAbility.cpp.o"
   "/Users/lenkasava/Desktop/army/ability/WerewolfAbility.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/ability/WerewolfAbility.cpp.o"
   "/Users/lenkasava/Desktop/army/ability/WizardAbility.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/ability/WizardAbility.cpp.o"
   "/Users/lenkasava/Desktop/army/main.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/main.cpp.o"
@@ -16,7 +19,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/lenkasava/Desktop/army/spell/Heal.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/spell/Heal.cpp.o"
   "/Users/lenkasava/Desktop/army/spell/Spell.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/spell/Spell.cpp.o"
   "/Users/lenkasava/Desktop/army/spell/SpellBook.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/spell/SpellBook.cpp.o"
+  "/Users/lenkasava/Desktop/army/spellcaster/Healer.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/spellcaster/Healer.cpp.o"
+  "/Users/lenkasava/Desktop/army/spellcaster/Priest.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/spellcaster/Priest.cpp.o"
   "/Users/lenkasava/Desktop/army/spellcaster/SpellCaster.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/spellcaster/SpellCaster.cpp.o"
+  "/Users/lenkasava/Desktop/army/spellcaster/Warlock.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/spellcaster/Warlock.cpp.o"
   "/Users/lenkasava/Desktop/army/spellcaster/Wizard.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/spellcaster/Wizard.cpp.o"
   "/Users/lenkasava/Desktop/army/state/BerserkerState.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/state/BerserkerState.cpp.o"
   "/Users/lenkasava/Desktop/army/state/MagicState.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/state/MagicState.cpp.o"
@@ -25,6 +31,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/lenkasava/Desktop/army/state/VampireState.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/state/VampireState.cpp.o"
   "/Users/lenkasava/Desktop/army/state/WerewolfState.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/state/WerewolfState.cpp.o"
   "/Users/lenkasava/Desktop/army/unit/Berserker.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/unit/Berserker.cpp.o"
+  "/Users/lenkasava/Desktop/army/unit/Demon.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/unit/Demon.cpp.o"
   "/Users/lenkasava/Desktop/army/unit/Rogue.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/unit/Rogue.cpp.o"
   "/Users/lenkasava/Desktop/army/unit/Soldier.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/unit/Soldier.cpp.o"
   "/Users/lenkasava/Desktop/army/unit/Unit.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/unit/Unit.cpp.o"
@@ -41,6 +48,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../spellcaster"
   "../state"
   "../unit"
+  "../tests"
   )
 
 # Targets to which this target links.

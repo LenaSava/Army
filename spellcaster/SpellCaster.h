@@ -5,6 +5,7 @@
 #include "../ability/MagicAbility.h"
 #include "../state/MagicState.h"
 #include "../ability/DefaultAbility.h"
+#include "../spell/SpellBook.h"
 
 
 class MagicAbility;
@@ -24,9 +25,12 @@ class SpellCaster: public Unit {
 
         void addMana(int extra);
         void spendMana(int cost);
-//
-//        void changeSpell(spells newSpell);
+
+        void changeSpell(spells newSpell);
         virtual void cast(Unit* enemy);
+        virtual void meditation();
+
+        void PrintDescription();
 
 };
 

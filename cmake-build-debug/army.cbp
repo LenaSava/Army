@@ -50,6 +50,7 @@
 					<Add directory="/Users/lenkasava/Desktop/army/spellcaster"/>
 					<Add directory="/Users/lenkasava/Desktop/army/state"/>
 					<Add directory="/Users/lenkasava/Desktop/army/unit"/>
+					<Add directory="/Users/lenkasava/Desktop/army/tests"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -77,6 +78,7 @@
 					<Add directory="/Users/lenkasava/Desktop/army/spellcaster"/>
 					<Add directory="/Users/lenkasava/Desktop/army/state"/>
 					<Add directory="/Users/lenkasava/Desktop/army/unit"/>
+					<Add directory="/Users/lenkasava/Desktop/army/tests"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -107,10 +109,22 @@
 		<Unit filename="/Users/lenkasava/Desktop/army/ability/DefaultAbility.h">
 			<Option target="army"/>
 		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/HealerAbility.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/HealerAbility.h">
+			<Option target="army"/>
+		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/ability/MagicAbility.cpp">
 			<Option target="army"/>
 		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/ability/MagicAbility.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/PriestAbility.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/PriestAbility.h">
 			<Option target="army"/>
 		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/ability/RogueAbility.cpp">
@@ -123,6 +137,12 @@
 			<Option target="army"/>
 		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/ability/VampireAbility.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/WarlockAbility.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/WarlockAbility.h">
 			<Option target="army"/>
 		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/ability/WerewolfAbility.cpp">
@@ -167,10 +187,28 @@
 		<Unit filename="/Users/lenkasava/Desktop/army/spell/SpellBook.h">
 			<Option target="army"/>
 		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Healer.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Healer.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Priest.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Priest.h">
+			<Option target="army"/>
+		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/SpellCaster.cpp">
 			<Option target="army"/>
 		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Warlock.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Warlock.h">
 			<Option target="army"/>
 		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Wizard.cpp">
@@ -219,6 +257,12 @@
 			<Option target="army"/>
 		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/unit/Berserker.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/unit/Demon.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/unit/Demon.h">
 			<Option target="army"/>
 		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/unit/Rogue.cpp">

@@ -21,6 +21,12 @@ ability/WerewolfAbility.h
 /Users/lenkasava/Desktop/army/ability/WerewolfAbility.h
 ability/WizardAbility.h
 /Users/lenkasava/Desktop/army/ability/WizardAbility.h
+ability/HealerAbility.h
+/Users/lenkasava/Desktop/army/ability/HealerAbility.h
+ability/PriestAbility.h
+/Users/lenkasava/Desktop/army/ability/PriestAbility.h
+ability/WarlockAbility.h
+/Users/lenkasava/Desktop/army/ability/WarlockAbility.h
 spell/FireBall.h
 /Users/lenkasava/Desktop/army/spell/FireBall.h
 spell/Heal.h
@@ -33,6 +39,12 @@ spellcaster/SpellCaster.h
 /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
 spellcaster/Wizard.h
 /Users/lenkasava/Desktop/army/spellcaster/Wizard.h
+spellcaster/Healer.h
+/Users/lenkasava/Desktop/army/spellcaster/Healer.h
+spellcaster/Priest.h
+/Users/lenkasava/Desktop/army/spellcaster/Priest.h
+spellcaster/Warlock.h
+/Users/lenkasava/Desktop/army/spellcaster/Warlock.h
 state/MagicState.h
 /Users/lenkasava/Desktop/army/state/MagicState.h
 state/State.h
@@ -57,6 +69,8 @@ unit/Vampire.h
 /Users/lenkasava/Desktop/army/unit/Vampire.h
 unit/Werewolf.h
 /Users/lenkasava/Desktop/army/unit/Werewolf.h
+unit/Demon.h
+/Users/lenkasava/Desktop/army/unit/Demon.h
 
 /Users/lenkasava/Desktop/army/ability/Ability.cpp
 Ability.h
@@ -74,6 +88,14 @@ DefaultAbility.h
 Ability.h
 /Users/lenkasava/Desktop/army/ability/Ability.h
 
+/Users/lenkasava/Desktop/army/ability/HealerAbility.cpp
+HealerAbility.h
+/Users/lenkasava/Desktop/army/ability/HealerAbility.h
+
+/Users/lenkasava/Desktop/army/ability/HealerAbility.h
+MagicAbility.h
+/Users/lenkasava/Desktop/army/ability/MagicAbility.h
+
 /Users/lenkasava/Desktop/army/ability/MagicAbility.cpp
 MagicAbility.h
 /Users/lenkasava/Desktop/army/ability/MagicAbility.h
@@ -85,6 +107,14 @@ MagicAbility.h
 /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
 ../spell/SpellBook.h
 /Users/lenkasava/Desktop/army/spell/SpellBook.h
+
+/Users/lenkasava/Desktop/army/ability/PriestAbility.cpp
+PriestAbility.h
+/Users/lenkasava/Desktop/army/ability/PriestAbility.h
+
+/Users/lenkasava/Desktop/army/ability/PriestAbility.h
+MagicAbility.h
+/Users/lenkasava/Desktop/army/ability/MagicAbility.h
 
 /Users/lenkasava/Desktop/army/ability/RogueAbility.cpp
 RogueAbility.h
@@ -103,6 +133,16 @@ Ability.h
 /Users/lenkasava/Desktop/army/ability/Ability.h
 ../state/VampireState.h
 /Users/lenkasava/Desktop/army/state/VampireState.h
+
+/Users/lenkasava/Desktop/army/ability/WarlockAbility.cpp
+WarlockAbility.h
+/Users/lenkasava/Desktop/army/ability/WarlockAbility.h
+
+/Users/lenkasava/Desktop/army/ability/WarlockAbility.h
+MagicAbility.h
+/Users/lenkasava/Desktop/army/ability/MagicAbility.h
+../unit/Demon.h
+/Users/lenkasava/Desktop/army/unit/Demon.h
 
 /Users/lenkasava/Desktop/army/ability/WerewolfAbility.cpp
 WerewolfAbility.h
@@ -142,6 +182,12 @@ Spell.h
 SpellBook.h
 /Users/lenkasava/Desktop/army/spell/SpellBook.h
 
+/Users/lenkasava/Desktop/army/spell/Fireball.h
+Spell.h
+/Users/lenkasava/Desktop/army/spell/Spell.h
+SpellBook.h
+/Users/lenkasava/Desktop/army/spell/SpellBook.h
+
 /Users/lenkasava/Desktop/army/spell/Heal.cpp
 Heal.h
 /Users/lenkasava/Desktop/army/spell/Heal.h
@@ -174,6 +220,34 @@ FireBall.h
 Heal.h
 /Users/lenkasava/Desktop/army/spell/Heal.h
 
+/Users/lenkasava/Desktop/army/spellcaster/Healer.cpp
+Healer.h
+/Users/lenkasava/Desktop/army/spellcaster/Healer.h
+
+/Users/lenkasava/Desktop/army/spellcaster/Healer.h
+SpellCaster.h
+/Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
+../spell/Heal.h
+/Users/lenkasava/Desktop/army/spell/Heal.h
+../spell/FireBall.h
+/Users/lenkasava/Desktop/army/spell/FireBall.h
+../ability/HealerAbility.h
+/Users/lenkasava/Desktop/army/ability/HealerAbility.h
+
+/Users/lenkasava/Desktop/army/spellcaster/Priest.cpp
+Priest.h
+/Users/lenkasava/Desktop/army/spellcaster/Priest.h
+
+/Users/lenkasava/Desktop/army/spellcaster/Priest.h
+SpellCaster.h
+/Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
+../spell/Fireball.h
+/Users/lenkasava/Desktop/army/spell/Fireball.h
+../spell/Heal.h
+/Users/lenkasava/Desktop/army/spell/Heal.h
+../ability/PriestAbility.h
+/Users/lenkasava/Desktop/army/ability/PriestAbility.h
+
 /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.cpp
 SpellCaster.h
 /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
@@ -187,6 +261,20 @@ SpellCaster.h
 /Users/lenkasava/Desktop/army/state/MagicState.h
 ../ability/DefaultAbility.h
 /Users/lenkasava/Desktop/army/ability/DefaultAbility.h
+../spell/SpellBook.h
+/Users/lenkasava/Desktop/army/spell/SpellBook.h
+
+/Users/lenkasava/Desktop/army/spellcaster/Warlock.cpp
+Warlock.h
+/Users/lenkasava/Desktop/army/spellcaster/Warlock.h
+
+/Users/lenkasava/Desktop/army/spellcaster/Warlock.h
+SpellCaster.h
+/Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
+../spell/FireBall.h
+/Users/lenkasava/Desktop/army/spell/FireBall.h
+../ability/WarlockAbility.h
+/Users/lenkasava/Desktop/army/ability/WarlockAbility.h
 
 /Users/lenkasava/Desktop/army/spellcaster/Wizard.cpp
 Wizard.h
@@ -197,6 +285,8 @@ SpellCaster.h
 /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
 ../spell/FireBall.h
 /Users/lenkasava/Desktop/army/spell/FireBall.h
+../spell/Heal.h
+/Users/lenkasava/Desktop/army/spell/Heal.h
 ../ability/WizardAbility.h
 /Users/lenkasava/Desktop/army/ability/WizardAbility.h
 
@@ -280,6 +370,18 @@ Unit.h
 ../state/BerserkerState.h
 /Users/lenkasava/Desktop/army/state/BerserkerState.h
 
+/Users/lenkasava/Desktop/army/unit/Demon.cpp
+Demon.h
+/Users/lenkasava/Desktop/army/unit/Demon.h
+
+/Users/lenkasava/Desktop/army/unit/Demon.h
+../spellcaster/Warlock.h
+/Users/lenkasava/Desktop/army/spellcaster/Warlock.h
+Soldier.h
+/Users/lenkasava/Desktop/army/unit/Soldier.h
+../ability/WarlockAbility.h
+/Users/lenkasava/Desktop/army/ability/WarlockAbility.h
+
 /Users/lenkasava/Desktop/army/unit/Rogue.cpp
 Rogue.h
 /Users/lenkasava/Desktop/army/unit/Rogue.h
@@ -309,6 +411,8 @@ Unit.h
 /Users/lenkasava/Desktop/army/state/State.h
 ../ability/Ability.h
 /Users/lenkasava/Desktop/army/ability/Ability.h
+../state/MagicState.h
+/Users/lenkasava/Desktop/army/state/MagicState.h
 
 /Users/lenkasava/Desktop/army/unit/Vampire.cpp
 Vampire.h

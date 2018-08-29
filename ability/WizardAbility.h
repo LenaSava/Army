@@ -3,7 +3,6 @@
 
 #include "MagicAbility.h"
 
-#define WIZARD_RATE 0.5
 
 class WizardAbility : public MagicAbility {
 public:
