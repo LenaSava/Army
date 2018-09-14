@@ -3,7 +3,7 @@
 
 
 #include "SpellCaster.h"
-#include "../spell/FireBall.h"
+#include "../spell/Lightning.h"
 #include "../ability/WarlockAbility.h"
 
 

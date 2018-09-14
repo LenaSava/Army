@@ -231,6 +231,33 @@ ability/MagicAbility.cpp.s:
 	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/ability/MagicAbility.cpp.s
 .PHONY : ability/MagicAbility.cpp.s
 
+ability/NecroAbility.o: ability/NecroAbility.cpp.o
+
+.PHONY : ability/NecroAbility.o
+
+# target to build an object file
+ability/NecroAbility.cpp.o:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/ability/NecroAbility.cpp.o
+.PHONY : ability/NecroAbility.cpp.o
+
+ability/NecroAbility.i: ability/NecroAbility.cpp.i
+
+.PHONY : ability/NecroAbility.i
+
+# target to preprocess a source file
+ability/NecroAbility.cpp.i:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/ability/NecroAbility.cpp.i
+.PHONY : ability/NecroAbility.cpp.i
+
+ability/NecroAbility.s: ability/NecroAbility.cpp.s
+
+.PHONY : ability/NecroAbility.s
+
+# target to generate assembly for a file
+ability/NecroAbility.cpp.s:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/ability/NecroAbility.cpp.s
+.PHONY : ability/NecroAbility.cpp.s
+
 ability/PriestAbility.o: ability/PriestAbility.cpp.o
 
 .PHONY : ability/PriestAbility.o
@@ -420,6 +447,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+spell/DarkMagic.o: spell/DarkMagic.cpp.o
+
+.PHONY : spell/DarkMagic.o
+
+# target to build an object file
+spell/DarkMagic.cpp.o:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spell/DarkMagic.cpp.o
+.PHONY : spell/DarkMagic.cpp.o
+
+spell/DarkMagic.i: spell/DarkMagic.cpp.i
+
+.PHONY : spell/DarkMagic.i
+
+# target to preprocess a source file
+spell/DarkMagic.cpp.i:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spell/DarkMagic.cpp.i
+.PHONY : spell/DarkMagic.cpp.i
+
+spell/DarkMagic.s: spell/DarkMagic.cpp.s
+
+.PHONY : spell/DarkMagic.s
+
+# target to generate assembly for a file
+spell/DarkMagic.cpp.s:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spell/DarkMagic.cpp.s
+.PHONY : spell/DarkMagic.cpp.s
+
 spell/FireBall.o: spell/FireBall.cpp.o
 
 .PHONY : spell/FireBall.o
@@ -473,6 +527,33 @@ spell/Heal.s: spell/Heal.cpp.s
 spell/Heal.cpp.s:
 	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spell/Heal.cpp.s
 .PHONY : spell/Heal.cpp.s
+
+spell/Lightning.o: spell/Lightning.cpp.o
+
+.PHONY : spell/Lightning.o
+
+# target to build an object file
+spell/Lightning.cpp.o:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spell/Lightning.cpp.o
+.PHONY : spell/Lightning.cpp.o
+
+spell/Lightning.i: spell/Lightning.cpp.i
+
+.PHONY : spell/Lightning.i
+
+# target to preprocess a source file
+spell/Lightning.cpp.i:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spell/Lightning.cpp.i
+.PHONY : spell/Lightning.cpp.i
+
+spell/Lightning.s: spell/Lightning.cpp.s
+
+.PHONY : spell/Lightning.s
+
+# target to generate assembly for a file
+spell/Lightning.cpp.s:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spell/Lightning.cpp.s
+.PHONY : spell/Lightning.cpp.s
 
 spell/Spell.o: spell/Spell.cpp.o
 
@@ -554,6 +635,33 @@ spellcaster/Healer.s: spellcaster/Healer.cpp.s
 spellcaster/Healer.cpp.s:
 	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spellcaster/Healer.cpp.s
 .PHONY : spellcaster/Healer.cpp.s
+
+spellcaster/Necromancer.o: spellcaster/Necromancer.cpp.o
+
+.PHONY : spellcaster/Necromancer.o
+
+# target to build an object file
+spellcaster/Necromancer.cpp.o:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o
+.PHONY : spellcaster/Necromancer.cpp.o
+
+spellcaster/Necromancer.i: spellcaster/Necromancer.cpp.i
+
+.PHONY : spellcaster/Necromancer.i
+
+# target to preprocess a source file
+spellcaster/Necromancer.cpp.i:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spellcaster/Necromancer.cpp.i
+.PHONY : spellcaster/Necromancer.cpp.i
+
+spellcaster/Necromancer.s: spellcaster/Necromancer.cpp.s
+
+.PHONY : spellcaster/Necromancer.s
+
+# target to generate assembly for a file
+spellcaster/Necromancer.cpp.s:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spellcaster/Necromancer.cpp.s
+.PHONY : spellcaster/Necromancer.cpp.s
 
 spellcaster/Priest.o: spellcaster/Priest.cpp.o
 
@@ -1035,6 +1143,9 @@ help:
 	@echo "... ability/MagicAbility.o"
 	@echo "... ability/MagicAbility.i"
 	@echo "... ability/MagicAbility.s"
+	@echo "... ability/NecroAbility.o"
+	@echo "... ability/NecroAbility.i"
+	@echo "... ability/NecroAbility.s"
 	@echo "... ability/PriestAbility.o"
 	@echo "... ability/PriestAbility.i"
 	@echo "... ability/PriestAbility.s"
@@ -1056,12 +1167,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... spell/DarkMagic.o"
+	@echo "... spell/DarkMagic.i"
+	@echo "... spell/DarkMagic.s"
 	@echo "... spell/FireBall.o"
 	@echo "... spell/FireBall.i"
 	@echo "... spell/FireBall.s"
 	@echo "... spell/Heal.o"
 	@echo "... spell/Heal.i"
 	@echo "... spell/Heal.s"
+	@echo "... spell/Lightning.o"
+	@echo "... spell/Lightning.i"
+	@echo "... spell/Lightning.s"
 	@echo "... spell/Spell.o"
 	@echo "... spell/Spell.i"
 	@echo "... spell/Spell.s"
@@ -1071,6 +1188,9 @@ help:
 	@echo "... spellcaster/Healer.o"
 	@echo "... spellcaster/Healer.i"
 	@echo "... spellcaster/Healer.s"
+	@echo "... spellcaster/Necromancer.o"
+	@echo "... spellcaster/Necromancer.i"
+	@echo "... spellcaster/Necromancer.s"
 	@echo "... spellcaster/Priest.o"
 	@echo "... spellcaster/Priest.i"
 	@echo "... spellcaster/Priest.s"

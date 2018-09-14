@@ -42,6 +42,7 @@ add_executable(army
         spellcaster/Wizard.h
         spellcaster/Healer.cpp
         spellcaster/Priest.cpp
+        spellcaster/Warlock.cpp
         state/BerserkerState.cpp
         state/BerserkerState.h
         state/MagicState.cpp
@@ -68,4 +69,4 @@ add_executable(army
         unit/Werewolf.h
         Army.h
         exceptions.h
-        main.cpp spellcaster/Warlock.cpp spellcaster/Warlock.h unit/Demon.cpp unit/Demon.h ability/WarlockAbility.cpp ability/WarlockAbility.h)
+        main.cpp spellcaster/Warlock.cpp spellcaster/Warlock.h unit/Demon.cpp unit/Demon.h ability/WarlockAbility.cpp ability/WarlockAbility.h spell/Lightning.h spell/Lightning.cpp spellcaster/Necromancer.cpp spellcaster/Necromancer.h spell/DarkMagic.cpp spell/DarkMagic.h ability/NecroAbility.cpp ability/NecroAbility.h)

@@ -121,6 +121,12 @@
 		<Unit filename="/Users/lenkasava/Desktop/army/ability/MagicAbility.h">
 			<Option target="army"/>
 		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/NecroAbility.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/NecroAbility.h">
+			<Option target="army"/>
+		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/ability/PriestAbility.cpp">
 			<Option target="army"/>
 		</Unit>
@@ -163,6 +169,12 @@
 		<Unit filename="/Users/lenkasava/Desktop/army/main.cpp">
 			<Option target="army"/>
 		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spell/DarkMagic.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spell/DarkMagic.h">
+			<Option target="army"/>
+		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/spell/FireBall.cpp">
 			<Option target="army"/>
 		</Unit>
@@ -173,6 +185,12 @@
 			<Option target="army"/>
 		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/spell/Heal.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spell/Lightning.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spell/Lightning.h">
 			<Option target="army"/>
 		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/spell/Spell.cpp">
@@ -191,6 +209,12 @@
 			<Option target="army"/>
 		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Healer.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Necromancer.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Necromancer.h">
 			<Option target="army"/>
 		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Priest.cpp">

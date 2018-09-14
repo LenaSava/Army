@@ -17,6 +17,7 @@
 #include "spellcaster/Healer.h"
 #include "spellcaster/Priest.h"
 #include "spellcaster/Warlock.h"
+//#include "spellcaster/Necromancer.h"
 #include "state/MagicState.h"
 #include "state/State.h"
 #include "state/BerserkerState.h"

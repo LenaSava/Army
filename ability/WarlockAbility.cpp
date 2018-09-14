@@ -1,10 +1,7 @@
 #include "WarlockAbility.h"
 
 WarlockAbility::WarlockAbility(SpellCaster *owner, spells spell) : MagicAbility(owner, spell) {
-//    demonMap = {
-//            {anku, new Demon("Anku", 70, 15)},
-//            {aheron, new Demon("Aheron", 80, 10)}
-//    };
+
 }
 
 WarlockAbility::~WarlockAbility() {}

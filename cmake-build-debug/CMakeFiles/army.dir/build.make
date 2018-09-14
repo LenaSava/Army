@@ -465,9 +465,33 @@ CMakeFiles/army.dir/spellcaster/Priest.cpp.o.provides: CMakeFiles/army.dir/spell
 CMakeFiles/army.dir/spellcaster/Priest.cpp.o.provides.build: CMakeFiles/army.dir/spellcaster/Priest.cpp.o
 
 
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: CMakeFiles/army.dir/flags.make
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../spellcaster/Warlock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/army.dir/spellcaster/Warlock.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/spellcaster/Warlock.cpp.o -c /Users/lenkasava/Desktop/army/spellcaster/Warlock.cpp
+
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/army.dir/spellcaster/Warlock.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lenkasava/Desktop/army/spellcaster/Warlock.cpp > CMakeFiles/army.dir/spellcaster/Warlock.cpp.i
+
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/army.dir/spellcaster/Warlock.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lenkasava/Desktop/army/spellcaster/Warlock.cpp -o CMakeFiles/army.dir/spellcaster/Warlock.cpp.s
+
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o.requires:
+
+.PHONY : CMakeFiles/army.dir/spellcaster/Warlock.cpp.o.requires
+
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o.provides: CMakeFiles/army.dir/spellcaster/Warlock.cpp.o.requires
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spellcaster/Warlock.cpp.o.provides.build
+.PHONY : CMakeFiles/army.dir/spellcaster/Warlock.cpp.o.provides
+
+CMakeFiles/army.dir/spellcaster/Warlock.cpp.o.provides.build: CMakeFiles/army.dir/spellcaster/Warlock.cpp.o
+
+
 CMakeFiles/army.dir/state/BerserkerState.cpp.o: CMakeFiles/army.dir/flags.make
 CMakeFiles/army.dir/state/BerserkerState.cpp.o: ../state/BerserkerState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/army.dir/state/BerserkerState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/army.dir/state/BerserkerState.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/state/BerserkerState.cpp.o -c /Users/lenkasava/Desktop/army/state/BerserkerState.cpp
 
 CMakeFiles/army.dir/state/BerserkerState.cpp.i: cmake_force
@@ -491,7 +515,7 @@ CMakeFiles/army.dir/state/BerserkerState.cpp.o.provides.build: CMakeFiles/army.d
 
 CMakeFiles/army.dir/state/MagicState.cpp.o: CMakeFiles/army.dir/flags.make
 CMakeFiles/army.dir/state/MagicState.cpp.o: ../state/MagicState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/army.dir/state/MagicState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/army.dir/state/MagicState.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/state/MagicState.cpp.o -c /Users/lenkasava/Desktop/army/state/MagicState.cpp
 
 CMakeFiles/army.dir/state/MagicState.cpp.i: cmake_force
@@ -515,7 +539,7 @@ CMakeFiles/army.dir/state/MagicState.cpp.o.provides.build: CMakeFiles/army.dir/s
 
 CMakeFiles/army.dir/state/State.cpp.o: CMakeFiles/army.dir/flags.make
 CMakeFiles/army.dir/state/State.cpp.o: ../state/State.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/army.dir/state/State.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/army.dir/state/State.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/state/State.cpp.o -c /Users/lenkasava/Desktop/army/state/State.cpp
 
 CMakeFiles/army.dir/state/State.cpp.i: cmake_force
@@ -539,7 +563,7 @@ CMakeFiles/army.dir/state/State.cpp.o.provides.build: CMakeFiles/army.dir/state/
 
 CMakeFiles/army.dir/state/TurnWolfState.cpp.o: CMakeFiles/army.dir/flags.make
 CMakeFiles/army.dir/state/TurnWolfState.cpp.o: ../state/TurnWolfState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/army.dir/state/TurnWolfState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/army.dir/state/TurnWolfState.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/state/TurnWolfState.cpp.o -c /Users/lenkasava/Desktop/army/state/TurnWolfState.cpp
 
 CMakeFiles/army.dir/state/TurnWolfState.cpp.i: cmake_force
@@ -563,7 +587,7 @@ CMakeFiles/army.dir/state/TurnWolfState.cpp.o.provides.build: CMakeFiles/army.di
 
 CMakeFiles/army.dir/state/VampireState.cpp.o: CMakeFiles/army.dir/flags.make
 CMakeFiles/army.dir/state/VampireState.cpp.o: ../state/VampireState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/army.dir/state/VampireState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/army.dir/state/VampireState.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/state/VampireState.cpp.o -c /Users/lenkasava/Desktop/army/state/VampireState.cpp
 
 CMakeFiles/army.dir/state/VampireState.cpp.i: cmake_force
@@ -587,7 +611,7 @@ CMakeFiles/army.dir/state/VampireState.cpp.o.provides.build: CMakeFiles/army.dir
 
 CMakeFiles/army.dir/state/WerewolfState.cpp.o: CMakeFiles/army.dir/flags.make
 CMakeFiles/army.dir/state/WerewolfState.cpp.o: ../state/WerewolfState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/army.dir/state/WerewolfState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/army.dir/state/WerewolfState.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/state/WerewolfState.cpp.o -c /Users/lenkasava/Desktop/army/state/WerewolfState.cpp
 
 CMakeFiles/army.dir/state/WerewolfState.cpp.i: cmake_force
@@ -611,7 +635,7 @@ CMakeFiles/army.dir/state/WerewolfState.cpp.o.provides.build: CMakeFiles/army.di
 
 CMakeFiles/army.dir/unit/Berserker.cpp.o: CMakeFiles/army.dir/flags.make
 CMakeFiles/army.dir/unit/Berserker.cpp.o: ../unit/Berserker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/army.dir/unit/Berserker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/army.dir/unit/Berserker.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/unit/Berserker.cpp.o -c /Users/lenkasava/Desktop/army/unit/Berserker.cpp
 
 CMakeFiles/army.dir/unit/Berserker.cpp.i: cmake_force
@@ -635,7 +659,7 @@ CMakeFiles/army.dir/unit/Berserker.cpp.o.provides.build: CMakeFiles/army.dir/uni
 
 CMakeFiles/army.dir/unit/Rogue.cpp.o: CMakeFiles/army.dir/flags.make
 CMakeFiles/army.dir/unit/Rogue.cpp.o: ../unit/Rogue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/army.dir/unit/Rogue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/army.dir/unit/Rogue.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/unit/Rogue.cpp.o -c /Users/lenkasava/Desktop/army/unit/Rogue.cpp
 
 CMakeFiles/army.dir/unit/Rogue.cpp.i: cmake_force
@@ -659,7 +683,7 @@ CMakeFiles/army.dir/unit/Rogue.cpp.o.provides.build: CMakeFiles/army.dir/unit/Ro
 
 CMakeFiles/army.dir/unit/Soldier.cpp.o: CMakeFiles/army.dir/flags.make
 CMakeFiles/army.dir/unit/Soldier.cpp.o: ../unit/Soldier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/army.dir/unit/Soldier.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/army.dir/unit/Soldier.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/unit/Soldier.cpp.o -c /Users/lenkasava/Desktop/army/unit/Soldier.cpp
 
 CMakeFiles/army.dir/unit/Soldier.cpp.i: cmake_force
@@ -683,7 +707,7 @@ CMakeFiles/army.dir/unit/Soldier.cpp.o.provides.build: CMakeFiles/army.dir/unit/
 
 CMakeFiles/army.dir/unit/Unit.cpp.o: CMakeFiles/army.dir/flags.make
 CMakeFiles/army.dir/unit/Unit.cpp.o: ../unit/Unit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/army.dir/unit/Unit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/army.dir/unit/Unit.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/unit/Unit.cpp.o -c /Users/lenkasava/Desktop/army/unit/Unit.cpp
 
 CMakeFiles/army.dir/unit/Unit.cpp.i: cmake_force
@@ -707,7 +731,7 @@ CMakeFiles/army.dir/unit/Unit.cpp.o.provides.build: CMakeFiles/army.dir/unit/Uni
 
 CMakeFiles/army.dir/unit/Vampire.cpp.o: CMakeFiles/army.dir/flags.make
 CMakeFiles/army.dir/unit/Vampire.cpp.o: ../unit/Vampire.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/army.dir/unit/Vampire.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/army.dir/unit/Vampire.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/unit/Vampire.cpp.o -c /Users/lenkasava/Desktop/army/unit/Vampire.cpp
 
 CMakeFiles/army.dir/unit/Vampire.cpp.i: cmake_force
@@ -731,7 +755,7 @@ CMakeFiles/army.dir/unit/Vampire.cpp.o.provides.build: CMakeFiles/army.dir/unit/
 
 CMakeFiles/army.dir/unit/Werewolf.cpp.o: CMakeFiles/army.dir/flags.make
 CMakeFiles/army.dir/unit/Werewolf.cpp.o: ../unit/Werewolf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/army.dir/unit/Werewolf.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/army.dir/unit/Werewolf.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/unit/Werewolf.cpp.o -c /Users/lenkasava/Desktop/army/unit/Werewolf.cpp
 
 CMakeFiles/army.dir/unit/Werewolf.cpp.i: cmake_force
@@ -755,7 +779,7 @@ CMakeFiles/army.dir/unit/Werewolf.cpp.o.provides.build: CMakeFiles/army.dir/unit
 
 CMakeFiles/army.dir/main.cpp.o: CMakeFiles/army.dir/flags.make
 CMakeFiles/army.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/army.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/army.dir/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/main.cpp.o -c /Users/lenkasava/Desktop/army/main.cpp
 
 CMakeFiles/army.dir/main.cpp.i: cmake_force
@@ -775,30 +799,6 @@ CMakeFiles/army.dir/main.cpp.o.provides: CMakeFiles/army.dir/main.cpp.o.requires
 .PHONY : CMakeFiles/army.dir/main.cpp.o.provides
 
 CMakeFiles/army.dir/main.cpp.o.provides.build: CMakeFiles/army.dir/main.cpp.o
-
-
-CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: CMakeFiles/army.dir/flags.make
-CMakeFiles/army.dir/spellcaster/Warlock.cpp.o: ../spellcaster/Warlock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/army.dir/spellcaster/Warlock.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/spellcaster/Warlock.cpp.o -c /Users/lenkasava/Desktop/army/spellcaster/Warlock.cpp
-
-CMakeFiles/army.dir/spellcaster/Warlock.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/army.dir/spellcaster/Warlock.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lenkasava/Desktop/army/spellcaster/Warlock.cpp > CMakeFiles/army.dir/spellcaster/Warlock.cpp.i
-
-CMakeFiles/army.dir/spellcaster/Warlock.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/army.dir/spellcaster/Warlock.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lenkasava/Desktop/army/spellcaster/Warlock.cpp -o CMakeFiles/army.dir/spellcaster/Warlock.cpp.s
-
-CMakeFiles/army.dir/spellcaster/Warlock.cpp.o.requires:
-
-.PHONY : CMakeFiles/army.dir/spellcaster/Warlock.cpp.o.requires
-
-CMakeFiles/army.dir/spellcaster/Warlock.cpp.o.provides: CMakeFiles/army.dir/spellcaster/Warlock.cpp.o.requires
-	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spellcaster/Warlock.cpp.o.provides.build
-.PHONY : CMakeFiles/army.dir/spellcaster/Warlock.cpp.o.provides
-
-CMakeFiles/army.dir/spellcaster/Warlock.cpp.o.provides.build: CMakeFiles/army.dir/spellcaster/Warlock.cpp.o
 
 
 CMakeFiles/army.dir/unit/Demon.cpp.o: CMakeFiles/army.dir/flags.make
@@ -849,6 +849,102 @@ CMakeFiles/army.dir/ability/WarlockAbility.cpp.o.provides: CMakeFiles/army.dir/a
 CMakeFiles/army.dir/ability/WarlockAbility.cpp.o.provides.build: CMakeFiles/army.dir/ability/WarlockAbility.cpp.o
 
 
+CMakeFiles/army.dir/spell/Lightning.cpp.o: CMakeFiles/army.dir/flags.make
+CMakeFiles/army.dir/spell/Lightning.cpp.o: ../spell/Lightning.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/army.dir/spell/Lightning.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/spell/Lightning.cpp.o -c /Users/lenkasava/Desktop/army/spell/Lightning.cpp
+
+CMakeFiles/army.dir/spell/Lightning.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/army.dir/spell/Lightning.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lenkasava/Desktop/army/spell/Lightning.cpp > CMakeFiles/army.dir/spell/Lightning.cpp.i
+
+CMakeFiles/army.dir/spell/Lightning.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/army.dir/spell/Lightning.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lenkasava/Desktop/army/spell/Lightning.cpp -o CMakeFiles/army.dir/spell/Lightning.cpp.s
+
+CMakeFiles/army.dir/spell/Lightning.cpp.o.requires:
+
+.PHONY : CMakeFiles/army.dir/spell/Lightning.cpp.o.requires
+
+CMakeFiles/army.dir/spell/Lightning.cpp.o.provides: CMakeFiles/army.dir/spell/Lightning.cpp.o.requires
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spell/Lightning.cpp.o.provides.build
+.PHONY : CMakeFiles/army.dir/spell/Lightning.cpp.o.provides
+
+CMakeFiles/army.dir/spell/Lightning.cpp.o.provides.build: CMakeFiles/army.dir/spell/Lightning.cpp.o
+
+
+CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o: CMakeFiles/army.dir/flags.make
+CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o: ../spellcaster/Necromancer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o -c /Users/lenkasava/Desktop/army/spellcaster/Necromancer.cpp
+
+CMakeFiles/army.dir/spellcaster/Necromancer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/army.dir/spellcaster/Necromancer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lenkasava/Desktop/army/spellcaster/Necromancer.cpp > CMakeFiles/army.dir/spellcaster/Necromancer.cpp.i
+
+CMakeFiles/army.dir/spellcaster/Necromancer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/army.dir/spellcaster/Necromancer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lenkasava/Desktop/army/spellcaster/Necromancer.cpp -o CMakeFiles/army.dir/spellcaster/Necromancer.cpp.s
+
+CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o.requires:
+
+.PHONY : CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o.requires
+
+CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o.provides: CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o.provides.build
+.PHONY : CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o.provides
+
+CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o.provides.build: CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o
+
+
+CMakeFiles/army.dir/spell/DarkMagic.cpp.o: CMakeFiles/army.dir/flags.make
+CMakeFiles/army.dir/spell/DarkMagic.cpp.o: ../spell/DarkMagic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/army.dir/spell/DarkMagic.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/spell/DarkMagic.cpp.o -c /Users/lenkasava/Desktop/army/spell/DarkMagic.cpp
+
+CMakeFiles/army.dir/spell/DarkMagic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/army.dir/spell/DarkMagic.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lenkasava/Desktop/army/spell/DarkMagic.cpp > CMakeFiles/army.dir/spell/DarkMagic.cpp.i
+
+CMakeFiles/army.dir/spell/DarkMagic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/army.dir/spell/DarkMagic.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lenkasava/Desktop/army/spell/DarkMagic.cpp -o CMakeFiles/army.dir/spell/DarkMagic.cpp.s
+
+CMakeFiles/army.dir/spell/DarkMagic.cpp.o.requires:
+
+.PHONY : CMakeFiles/army.dir/spell/DarkMagic.cpp.o.requires
+
+CMakeFiles/army.dir/spell/DarkMagic.cpp.o.provides: CMakeFiles/army.dir/spell/DarkMagic.cpp.o.requires
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/spell/DarkMagic.cpp.o.provides.build
+.PHONY : CMakeFiles/army.dir/spell/DarkMagic.cpp.o.provides
+
+CMakeFiles/army.dir/spell/DarkMagic.cpp.o.provides.build: CMakeFiles/army.dir/spell/DarkMagic.cpp.o
+
+
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: CMakeFiles/army.dir/flags.make
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: ../ability/NecroAbility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/army.dir/ability/NecroAbility.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/ability/NecroAbility.cpp.o -c /Users/lenkasava/Desktop/army/ability/NecroAbility.cpp
+
+CMakeFiles/army.dir/ability/NecroAbility.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/army.dir/ability/NecroAbility.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lenkasava/Desktop/army/ability/NecroAbility.cpp > CMakeFiles/army.dir/ability/NecroAbility.cpp.i
+
+CMakeFiles/army.dir/ability/NecroAbility.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/army.dir/ability/NecroAbility.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lenkasava/Desktop/army/ability/NecroAbility.cpp -o CMakeFiles/army.dir/ability/NecroAbility.cpp.s
+
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o.requires:
+
+.PHONY : CMakeFiles/army.dir/ability/NecroAbility.cpp.o.requires
+
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o.provides: CMakeFiles/army.dir/ability/NecroAbility.cpp.o.requires
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/ability/NecroAbility.cpp.o.provides.build
+.PHONY : CMakeFiles/army.dir/ability/NecroAbility.cpp.o.provides
+
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o.provides.build: CMakeFiles/army.dir/ability/NecroAbility.cpp.o
+
+
 # Object files for target army
 army_OBJECTS = \
 "CMakeFiles/army.dir/ability/Ability.cpp.o" \
@@ -868,6 +964,7 @@ army_OBJECTS = \
 "CMakeFiles/army.dir/spellcaster/Wizard.cpp.o" \
 "CMakeFiles/army.dir/spellcaster/Healer.cpp.o" \
 "CMakeFiles/army.dir/spellcaster/Priest.cpp.o" \
+"CMakeFiles/army.dir/spellcaster/Warlock.cpp.o" \
 "CMakeFiles/army.dir/state/BerserkerState.cpp.o" \
 "CMakeFiles/army.dir/state/MagicState.cpp.o" \
 "CMakeFiles/army.dir/state/State.cpp.o" \
@@ -881,9 +978,12 @@ army_OBJECTS = \
 "CMakeFiles/army.dir/unit/Vampire.cpp.o" \
 "CMakeFiles/army.dir/unit/Werewolf.cpp.o" \
 "CMakeFiles/army.dir/main.cpp.o" \
-"CMakeFiles/army.dir/spellcaster/Warlock.cpp.o" \
 "CMakeFiles/army.dir/unit/Demon.cpp.o" \
-"CMakeFiles/army.dir/ability/WarlockAbility.cpp.o"
+"CMakeFiles/army.dir/ability/WarlockAbility.cpp.o" \
+"CMakeFiles/army.dir/spell/Lightning.cpp.o" \
+"CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o" \
+"CMakeFiles/army.dir/spell/DarkMagic.cpp.o" \
+"CMakeFiles/army.dir/ability/NecroAbility.cpp.o"
 
 # External object files for target army
 army_EXTERNAL_OBJECTS =
@@ -905,6 +1005,7 @@ army: CMakeFiles/army.dir/spellcaster/SpellCaster.cpp.o
 army: CMakeFiles/army.dir/spellcaster/Wizard.cpp.o
 army: CMakeFiles/army.dir/spellcaster/Healer.cpp.o
 army: CMakeFiles/army.dir/spellcaster/Priest.cpp.o
+army: CMakeFiles/army.dir/spellcaster/Warlock.cpp.o
 army: CMakeFiles/army.dir/state/BerserkerState.cpp.o
 army: CMakeFiles/army.dir/state/MagicState.cpp.o
 army: CMakeFiles/army.dir/state/State.cpp.o
@@ -918,12 +1019,15 @@ army: CMakeFiles/army.dir/unit/Unit.cpp.o
 army: CMakeFiles/army.dir/unit/Vampire.cpp.o
 army: CMakeFiles/army.dir/unit/Werewolf.cpp.o
 army: CMakeFiles/army.dir/main.cpp.o
-army: CMakeFiles/army.dir/spellcaster/Warlock.cpp.o
 army: CMakeFiles/army.dir/unit/Demon.cpp.o
 army: CMakeFiles/army.dir/ability/WarlockAbility.cpp.o
+army: CMakeFiles/army.dir/spell/Lightning.cpp.o
+army: CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o
+army: CMakeFiles/army.dir/spell/DarkMagic.cpp.o
+army: CMakeFiles/army.dir/ability/NecroAbility.cpp.o
 army: CMakeFiles/army.dir/build.make
 army: CMakeFiles/army.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX executable army"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking CXX executable army"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/army.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -948,6 +1052,7 @@ CMakeFiles/army.dir/requires: CMakeFiles/army.dir/spellcaster/SpellCaster.cpp.o.
 CMakeFiles/army.dir/requires: CMakeFiles/army.dir/spellcaster/Wizard.cpp.o.requires
 CMakeFiles/army.dir/requires: CMakeFiles/army.dir/spellcaster/Healer.cpp.o.requires
 CMakeFiles/army.dir/requires: CMakeFiles/army.dir/spellcaster/Priest.cpp.o.requires
+CMakeFiles/army.dir/requires: CMakeFiles/army.dir/spellcaster/Warlock.cpp.o.requires
 CMakeFiles/army.dir/requires: CMakeFiles/army.dir/state/BerserkerState.cpp.o.requires
 CMakeFiles/army.dir/requires: CMakeFiles/army.dir/state/MagicState.cpp.o.requires
 CMakeFiles/army.dir/requires: CMakeFiles/army.dir/state/State.cpp.o.requires
@@ -961,9 +1066,12 @@ CMakeFiles/army.dir/requires: CMakeFiles/army.dir/unit/Unit.cpp.o.requires
 CMakeFiles/army.dir/requires: CMakeFiles/army.dir/unit/Vampire.cpp.o.requires
 CMakeFiles/army.dir/requires: CMakeFiles/army.dir/unit/Werewolf.cpp.o.requires
 CMakeFiles/army.dir/requires: CMakeFiles/army.dir/main.cpp.o.requires
-CMakeFiles/army.dir/requires: CMakeFiles/army.dir/spellcaster/Warlock.cpp.o.requires
 CMakeFiles/army.dir/requires: CMakeFiles/army.dir/unit/Demon.cpp.o.requires
 CMakeFiles/army.dir/requires: CMakeFiles/army.dir/ability/WarlockAbility.cpp.o.requires
+CMakeFiles/army.dir/requires: CMakeFiles/army.dir/spell/Lightning.cpp.o.requires
+CMakeFiles/army.dir/requires: CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o.requires
+CMakeFiles/army.dir/requires: CMakeFiles/army.dir/spell/DarkMagic.cpp.o.requires
+CMakeFiles/army.dir/requires: CMakeFiles/army.dir/ability/NecroAbility.cpp.o.requires
 
 .PHONY : CMakeFiles/army.dir/requires
 

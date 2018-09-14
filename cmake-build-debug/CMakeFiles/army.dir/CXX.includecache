@@ -172,6 +172,16 @@ iostream
 Army.h
 /Users/lenkasava/Desktop/army/Army.h
 
+/Users/lenkasava/Desktop/army/spell/DarkMagic.cpp
+DarkMagic.h
+/Users/lenkasava/Desktop/army/spell/DarkMagic.h
+
+/Users/lenkasava/Desktop/army/spell/DarkMagic.h
+Spell.h
+/Users/lenkasava/Desktop/army/spell/Spell.h
+SpellBook.h
+/Users/lenkasava/Desktop/army/spell/SpellBook.h
+
 /Users/lenkasava/Desktop/army/spell/FireBall.cpp
 FireBall.h
 /Users/lenkasava/Desktop/army/spell/FireBall.h
@@ -196,6 +206,16 @@ Heal.h
 Spell.h
 /Users/lenkasava/Desktop/army/spell/Spell.h
 
+/Users/lenkasava/Desktop/army/spell/Lightning.cpp
+Lightning.h
+/Users/lenkasava/Desktop/army/spell/Lightning.h
+
+/Users/lenkasava/Desktop/army/spell/Lightning.h
+Spell.h
+/Users/lenkasava/Desktop/army/spell/Spell.h
+SpellBook.h
+/Users/lenkasava/Desktop/army/spell/SpellBook.h
+
 /Users/lenkasava/Desktop/army/spell/Spell.cpp
 Spell.h
 /Users/lenkasava/Desktop/army/spell/Spell.h
@@ -219,6 +239,10 @@ FireBall.h
 /Users/lenkasava/Desktop/army/spell/FireBall.h
 Heal.h
 /Users/lenkasava/Desktop/army/spell/Heal.h
+Lightning.h
+/Users/lenkasava/Desktop/army/spell/Lightning.h
+DarkMagic.h
+/Users/lenkasava/Desktop/army/spell/DarkMagic.h
 
 /Users/lenkasava/Desktop/army/spellcaster/Healer.cpp
 Healer.h
@@ -233,6 +257,14 @@ SpellCaster.h
 /Users/lenkasava/Desktop/army/spell/FireBall.h
 ../ability/HealerAbility.h
 /Users/lenkasava/Desktop/army/ability/HealerAbility.h
+
+/Users/lenkasava/Desktop/army/spellcaster/Necromancer.cpp
+Necromancer.h
+/Users/lenkasava/Desktop/army/spellcaster/Necromancer.h
+
+/Users/lenkasava/Desktop/army/spellcaster/Necromancer.h
+SpellCaster.h
+/Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
 
 /Users/lenkasava/Desktop/army/spellcaster/Priest.cpp
 Priest.h
@@ -271,8 +303,8 @@ Warlock.h
 /Users/lenkasava/Desktop/army/spellcaster/Warlock.h
 SpellCaster.h
 /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
-../spell/FireBall.h
-/Users/lenkasava/Desktop/army/spell/FireBall.h
+../spell/Lightning.h
+/Users/lenkasava/Desktop/army/spell/Lightning.h
 ../ability/WarlockAbility.h
 /Users/lenkasava/Desktop/army/ability/WarlockAbility.h
 
