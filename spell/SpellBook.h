@@ -6,13 +6,19 @@
 #include <map>
 #include "FireBall.h"
 #include "Heal.h"
+#include "Lightning.h"
+#include "DarkMagic.h"
 
 class Spell;
 class FireBall;
+class Lightning;
+class DarkMagic;
 
 typedef enum{
     fireball,
     heal,
+    lightning,
+    darkMagic
 } spells;
 
 class SpellBook{
