@@ -49,6 +49,23 @@ CMakeFiles/army.dir/ability/MagicAbility.cpp.o: ../state/MagicState.h
 CMakeFiles/army.dir/ability/MagicAbility.cpp.o: ../state/State.h
 CMakeFiles/army.dir/ability/MagicAbility.cpp.o: ../unit/Unit.h
 
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: ../ability/Ability.h
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: ../ability/DefaultAbility.h
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: ../ability/MagicAbility.h
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: ../ability/NecroAbility.cpp
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: ../ability/NecroAbility.h
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: ../exceptions.h
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: ../spell/DarkMagic.h
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: ../spell/FireBall.h
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: ../spell/Heal.h
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: ../spell/Lightning.h
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: ../spell/Spell.h
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: ../spell/SpellBook.h
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: ../spellcaster/SpellCaster.h
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: ../state/MagicState.h
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: ../state/State.h
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o: ../unit/Unit.h
+
 CMakeFiles/army.dir/ability/PriestAbility.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/ability/PriestAbility.cpp.o: ../ability/DefaultAbility.h
 CMakeFiles/army.dir/ability/PriestAbility.cpp.o: ../ability/MagicAbility.h
@@ -259,6 +276,7 @@ CMakeFiles/army.dir/spellcaster/Healer.cpp.o: ../unit/Unit.h
 CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o: ../ability/Ability.h
 CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o: ../ability/DefaultAbility.h
 CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o: ../ability/MagicAbility.h
+CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o: ../ability/NecroAbility.h
 CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o: ../exceptions.h
 CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o: ../spell/DarkMagic.h
 CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o: ../spell/FireBall.h

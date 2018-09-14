@@ -49,6 +49,23 @@ CMakeFiles/army.dir/ability/MagicAbility.cpp.o
  /Users/lenkasava/Desktop/army/state/MagicState.h
  /Users/lenkasava/Desktop/army/state/State.h
  /Users/lenkasava/Desktop/army/unit/Unit.h
+CMakeFiles/army.dir/ability/NecroAbility.cpp.o
+ /Users/lenkasava/Desktop/army/ability/Ability.h
+ /Users/lenkasava/Desktop/army/ability/DefaultAbility.h
+ /Users/lenkasava/Desktop/army/ability/MagicAbility.h
+ /Users/lenkasava/Desktop/army/ability/NecroAbility.cpp
+ /Users/lenkasava/Desktop/army/ability/NecroAbility.h
+ /Users/lenkasava/Desktop/army/exceptions.h
+ /Users/lenkasava/Desktop/army/spell/DarkMagic.h
+ /Users/lenkasava/Desktop/army/spell/FireBall.h
+ /Users/lenkasava/Desktop/army/spell/Heal.h
+ /Users/lenkasava/Desktop/army/spell/Lightning.h
+ /Users/lenkasava/Desktop/army/spell/Spell.h
+ /Users/lenkasava/Desktop/army/spell/SpellBook.h
+ /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
+ /Users/lenkasava/Desktop/army/state/MagicState.h
+ /Users/lenkasava/Desktop/army/state/State.h
+ /Users/lenkasava/Desktop/army/unit/Unit.h
 CMakeFiles/army.dir/ability/PriestAbility.cpp.o
  /Users/lenkasava/Desktop/army/ability/Ability.h
  /Users/lenkasava/Desktop/army/ability/DefaultAbility.h
@@ -260,6 +277,7 @@ CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o
  /Users/lenkasava/Desktop/army/ability/Ability.h
  /Users/lenkasava/Desktop/army/ability/DefaultAbility.h
  /Users/lenkasava/Desktop/army/ability/MagicAbility.h
+ /Users/lenkasava/Desktop/army/ability/NecroAbility.h
  /Users/lenkasava/Desktop/army/exceptions.h
  /Users/lenkasava/Desktop/army/spell/DarkMagic.h
  /Users/lenkasava/Desktop/army/spell/FireBall.h

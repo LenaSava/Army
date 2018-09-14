@@ -108,6 +108,14 @@ MagicAbility.h
 ../spell/SpellBook.h
 /Users/lenkasava/Desktop/army/spell/SpellBook.h
 
+/Users/lenkasava/Desktop/army/ability/NecroAbility.cpp
+NecroAbility.h
+/Users/lenkasava/Desktop/army/ability/NecroAbility.h
+
+/Users/lenkasava/Desktop/army/ability/NecroAbility.h
+MagicAbility.h
+/Users/lenkasava/Desktop/army/ability/MagicAbility.h
+
 /Users/lenkasava/Desktop/army/ability/PriestAbility.cpp
 PriestAbility.h
 /Users/lenkasava/Desktop/army/ability/PriestAbility.h
@@ -265,6 +273,10 @@ Necromancer.h
 /Users/lenkasava/Desktop/army/spellcaster/Necromancer.h
 SpellCaster.h
 /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
+../spell/DarkMagic.h
+/Users/lenkasava/Desktop/army/spell/DarkMagic.h
+../ability/NecroAbility.h
+/Users/lenkasava/Desktop/army/ability/NecroAbility.h
 
 /Users/lenkasava/Desktop/army/spellcaster/Priest.cpp
 Priest.h
