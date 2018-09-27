@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/lenkasava/Desktop/army/Interface/Observable.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/Interface/Observable.cpp.o"
+  "/Users/lenkasava/Desktop/army/Interface/Observer.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/Interface/Observer.cpp.o"
   "/Users/lenkasava/Desktop/army/ability/Ability.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/ability/Ability.cpp.o"
   "/Users/lenkasava/Desktop/army/ability/DefaultAbility.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/ability/DefaultAbility.cpp.o"
   "/Users/lenkasava/Desktop/army/ability/HealerAbility.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/ability/HealerAbility.cpp.o"
@@ -30,6 +32,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/lenkasava/Desktop/army/spellcaster/Wizard.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/spellcaster/Wizard.cpp.o"
   "/Users/lenkasava/Desktop/army/state/BerserkerState.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/state/BerserkerState.cpp.o"
   "/Users/lenkasava/Desktop/army/state/MagicState.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/state/MagicState.cpp.o"
+  "/Users/lenkasava/Desktop/army/state/NecroState.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/state/NecroState.cpp.o"
   "/Users/lenkasava/Desktop/army/state/State.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/state/State.cpp.o"
   "/Users/lenkasava/Desktop/army/state/TurnWolfState.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/state/TurnWolfState.cpp.o"
   "/Users/lenkasava/Desktop/army/state/VampireState.cpp" "/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles/army.dir/state/VampireState.cpp.o"

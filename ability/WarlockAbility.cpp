@@ -1,5 +1,9 @@
 #include "WarlockAbility.h"
 
+#include "../unit/Demon.h"
+#include <string>
+#include <cstring>
+
 WarlockAbility::WarlockAbility(SpellCaster *owner, spells spell) : MagicAbility(owner, spell) {
 
 }
@@ -20,6 +24,6 @@ void WarlockAbility::cast(Unit *enemy) {
     this->spell->action(enemy, SpellPower);
 }
 
-//Demon* WarlockAbility::getDemon(demons demon) {
-//    return this->demonMap.at(demon);
-//}
+Demon* WarlockAbility::evokeDemon() {
+    return new Demon("Demon", 150, 20);
+}

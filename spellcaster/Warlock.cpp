@@ -4,6 +4,7 @@ Warlock::Warlock(const char *title, int hitPoints, int damage, int mana) : Spell
     this->magicAbility = new WarlockAbility(this, lightning);
 }
 
-Warlock::~Warlock() {}
+Warlock::~Warlock() {
+}
 
 

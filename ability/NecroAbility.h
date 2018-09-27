@@ -3,6 +3,7 @@
 
 #include "MagicAbility.h"
 
+
 class NecroAbility : public MagicAbility {
 public:
     NecroAbility(SpellCaster* owner, spells spell);

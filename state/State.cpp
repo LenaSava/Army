@@ -7,6 +7,7 @@ State::State(const char *title, int hitPoints, int damage) {
     this->damage = damage;
     this->isVampire = false;
     this->isWolf = false;
+    this->isNecromancer = false;
 }
 
 State::~State() = default;
@@ -72,4 +73,7 @@ bool State::getIsWolf() {
 }
 bool State::getIsTurnWolf() {
     return this->isTurnWolf;
+}
+bool State::getIsNecromancer() {
+    return this->isNecromancer;
 }

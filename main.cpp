@@ -9,11 +9,13 @@ int main() {
     Rogue* razboynik = new Rogue("Razboynik", 100, 5);
     Wizard* gendalf = new Wizard("Gendalf", 100, 15, 40);
     Berserker* viking = new Berserker("Viking", 100, 20);
-    Vampire* vlad = new Vampire("Vampire", 150, 30);
-    Werewolf* werewolf = new Werewolf("Werewolf", 150, 30);
-    Healer* healer = new Healer("Healer", 150, 30, 30);
-    Priest* priest = new Priest("Priest", 120, 20, 70);
-    Warlock* warlock = new Warlock("Warlock", 120, 20, 150);
+    Vampire* vlad = new Vampire("Vampire", 100, 30);
+    Werewolf* werewolf = new Werewolf("Werewolf", 100, 30);
+    Healer* healer = new Healer("Healer", 100, 30, 30);
+    Priest* priest = new Priest("Priest", 100, 20, 70);
+    Warlock* warlock = new Warlock("Warlock", 100, 20, 150);
+    Necromancer* necromancer = new Necromancer("Necromancer", 100, 25, 120);
+
 
 
     soldier->PrintDescription();
@@ -25,23 +27,36 @@ int main() {
     healer->PrintDescription();
     priest->PrintDescription();
     warlock->PrintDescription();
+    necromancer->PrintDescription();
 
 
 
     priest->changeSpell(fireball);
-    warlock->cast(vlad);
     priest->cast(werewolf);
-
-
-
-    werewolf->PrintDescription();
-    priest->PrintDescription();
-    vlad->PrintDescription();
-
+	priest->cast(vlad);
+    priest->cast(necromancer);
     priest->meditation();
-    warlock->cast(priest);
+ //   priest->meditation();
+    priest->changeSpell(heal);
+    priest->cast(necromancer);
+    Demon* demon1 = warlock->evokeDemon();
+    Demon* demon2 = warlock->evokeDemon();
+    demon2->attack(vlad);
+    demon1->attack(vlad);
+    warlock->attack(soldier);
+    warlock->cast(soldier);
+    soldier->attack(demon1);
+//    necromancer->attack(soldier);
 
-    priest->PrintDescription();
+
+
+
+
+
+
+    soldier->PrintDescription();
+    demon1->PrintDescription();
+
 
 
     delete soldier;
@@ -51,9 +66,8 @@ int main() {
     delete vlad;
     delete werewolf;
     delete healer;
-//    delete priest;
-//    delete warlock;
-
+    delete warlock;
+    delete necromancer;
     return 0;
 }
 

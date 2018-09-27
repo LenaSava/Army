@@ -2,6 +2,8 @@
 #define ABILITY_H
 
 #include "../unit/Unit.h"
+#include "../Interface/Observer.h"
+#include "../Interface/Observable.h"
 
 class Unit;
 

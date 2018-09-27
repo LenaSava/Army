@@ -21,4 +21,5 @@ void NecroAbility::cast(Unit *enemy) {
         SpellPower = 0;
     }
     this->spell->action(enemy, SpellPower);
+//    addObservable(enemy);
 }

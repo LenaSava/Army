@@ -123,6 +123,60 @@ army/fast:
 	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/build
 .PHONY : army/fast
 
+Interface/Observable.o: Interface/Observable.cpp.o
+
+.PHONY : Interface/Observable.o
+
+# target to build an object file
+Interface/Observable.cpp.o:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/Interface/Observable.cpp.o
+.PHONY : Interface/Observable.cpp.o
+
+Interface/Observable.i: Interface/Observable.cpp.i
+
+.PHONY : Interface/Observable.i
+
+# target to preprocess a source file
+Interface/Observable.cpp.i:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/Interface/Observable.cpp.i
+.PHONY : Interface/Observable.cpp.i
+
+Interface/Observable.s: Interface/Observable.cpp.s
+
+.PHONY : Interface/Observable.s
+
+# target to generate assembly for a file
+Interface/Observable.cpp.s:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/Interface/Observable.cpp.s
+.PHONY : Interface/Observable.cpp.s
+
+Interface/Observer.o: Interface/Observer.cpp.o
+
+.PHONY : Interface/Observer.o
+
+# target to build an object file
+Interface/Observer.cpp.o:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/Interface/Observer.cpp.o
+.PHONY : Interface/Observer.cpp.o
+
+Interface/Observer.i: Interface/Observer.cpp.i
+
+.PHONY : Interface/Observer.i
+
+# target to preprocess a source file
+Interface/Observer.cpp.i:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/Interface/Observer.cpp.i
+.PHONY : Interface/Observer.cpp.i
+
+Interface/Observer.s: Interface/Observer.cpp.s
+
+.PHONY : Interface/Observer.s
+
+# target to generate assembly for a file
+Interface/Observer.cpp.s:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/Interface/Observer.cpp.s
+.PHONY : Interface/Observer.cpp.s
+
 ability/Ability.o: ability/Ability.cpp.o
 
 .PHONY : ability/Ability.o
@@ -825,6 +879,33 @@ state/MagicState.cpp.s:
 	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/state/MagicState.cpp.s
 .PHONY : state/MagicState.cpp.s
 
+state/NecroState.o: state/NecroState.cpp.o
+
+.PHONY : state/NecroState.o
+
+# target to build an object file
+state/NecroState.cpp.o:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/state/NecroState.cpp.o
+.PHONY : state/NecroState.cpp.o
+
+state/NecroState.i: state/NecroState.cpp.i
+
+.PHONY : state/NecroState.i
+
+# target to preprocess a source file
+state/NecroState.cpp.i:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/state/NecroState.cpp.i
+.PHONY : state/NecroState.cpp.i
+
+state/NecroState.s: state/NecroState.cpp.s
+
+.PHONY : state/NecroState.s
+
+# target to generate assembly for a file
+state/NecroState.cpp.s:
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/state/NecroState.cpp.s
+.PHONY : state/NecroState.cpp.s
+
 state/State.o: state/State.cpp.o
 
 .PHONY : state/State.o
@@ -1131,6 +1212,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... army"
+	@echo "... Interface/Observable.o"
+	@echo "... Interface/Observable.i"
+	@echo "... Interface/Observable.s"
+	@echo "... Interface/Observer.o"
+	@echo "... Interface/Observer.i"
+	@echo "... Interface/Observer.s"
 	@echo "... ability/Ability.o"
 	@echo "... ability/Ability.i"
 	@echo "... ability/Ability.s"
@@ -1209,6 +1296,9 @@ help:
 	@echo "... state/MagicState.o"
 	@echo "... state/MagicState.i"
 	@echo "... state/MagicState.s"
+	@echo "... state/NecroState.o"
+	@echo "... state/NecroState.i"
+	@echo "... state/NecroState.s"
 	@echo "... state/State.o"
 	@echo "... state/State.i"
 	@echo "... state/State.s"

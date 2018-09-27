@@ -67,6 +67,8 @@ add_executable(army
         unit/Vampire.h
         unit/Werewolf.cpp
         unit/Werewolf.h
+#        tests/tests.cpp
+        main.cpp
         Army.h
         exceptions.h
-        main.cpp spellcaster/Warlock.cpp spellcaster/Warlock.h unit/Demon.cpp unit/Demon.h ability/WarlockAbility.cpp ability/WarlockAbility.h spell/Lightning.h spell/Lightning.cpp spellcaster/Necromancer.cpp spellcaster/Necromancer.h spell/DarkMagic.cpp spell/DarkMagic.h ability/NecroAbility.cpp ability/NecroAbility.h)
+        spellcaster/Warlock.cpp spellcaster/Warlock.h unit/Demon.cpp unit/Demon.h ability/WarlockAbility.cpp ability/WarlockAbility.h spell/Lightning.h spell/Lightning.cpp spellcaster/Necromancer.cpp spellcaster/Necromancer.h spell/DarkMagic.cpp spell/DarkMagic.h ability/NecroAbility.cpp ability/NecroAbility.h Interface/Observer.cpp Interface/Observer.h Interface/Observable.cpp Interface/Observable.h state/NecroState.cpp state/NecroState.h )

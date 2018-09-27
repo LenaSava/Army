@@ -2,6 +2,7 @@
 #define PRIEST_ABILITY_H
 
 #include "MagicAbility.h"
+#include "MagicState.h"
 
 class PriestAbility : public MagicAbility {
 public:

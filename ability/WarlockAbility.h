@@ -11,7 +11,8 @@ public:
 
     virtual void cast(Unit* enemy);
 
-//    Demon* getDemon(demons de);
+
+    Demon* evokeDemon() override;
 
 
 };

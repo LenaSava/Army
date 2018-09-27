@@ -36,6 +36,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o"
   "CMakeFiles/army.dir/spell/DarkMagic.cpp.o"
   "CMakeFiles/army.dir/ability/NecroAbility.cpp.o"
+  "CMakeFiles/army.dir/Interface/Observer.cpp.o"
+  "CMakeFiles/army.dir/Interface/Observable.cpp.o"
+  "CMakeFiles/army.dir/state/NecroState.cpp.o"
   "army.pdb"
   "army"
 )

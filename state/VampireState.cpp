@@ -8,3 +8,4 @@ VampireState::~VampireState() {}
 bool VampireState::getIsVampire() {
     return this->isVampire;
 }
+

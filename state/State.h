@@ -14,6 +14,7 @@ class State {
         bool isVampire = false;
         bool isWolf = false;
         bool isTurnWolf = false;
+        bool isNecromancer = false;
 
         void _takeDamage(int dmg);
 
@@ -35,6 +36,7 @@ class State {
         bool getIsVampire();
         bool getIsWolf();
         bool getIsTurnWolf();
+        bool getIsNecromancer();
 
 };
 

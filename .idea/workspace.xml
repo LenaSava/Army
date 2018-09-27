@@ -11,26 +11,24 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list id="5910a22c-1a1e-4e9e-870b-cae5cd0dcbf9" name="added summon demon" comment="added summon demon">
-      <changelist_data name="Artiom" email="afedulov@playq.net" />
-      <change beforePath="$PROJECT_DIR$/ability/MagicAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ability/MagicAbility.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ability/MagicAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/ability/MagicAbility.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ability/WarlockAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ability/WarlockAbility.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ability/WarlockAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/ability/WarlockAbility.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spellcaster/Warlock.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/spellcaster/Warlock.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spellcaster/Warlock.h" beforeDir="false" afterPath="$PROJECT_DIR$/spellcaster/Warlock.h" afterDir="false" />
-    </list>
     <list default="true" id="019aeb79-8f90-4306-ad92-360ee23dbe49" name="Default" comment="update 14/09">
-      <change afterPath="$PROJECT_DIR$/ability/NecroAbility.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ability/NecroAbility.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spellcaster/Necromancer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spellcaster/Necromancer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface/Observable.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface/Observable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface/Observer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interface/Observer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/NecroState.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state/NecroState.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Army.h" beforeDir="false" afterPath="$PROJECT_DIR$/Army.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability/Ability.h" beforeDir="false" afterPath="$PROJECT_DIR$/ability/Ability.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability/MagicAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/ability/MagicAbility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability/NecroAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ability/NecroAbility.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability/NecroAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/ability/NecroAbility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability/PriestAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ability/PriestAbility.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability/PriestAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/ability/PriestAbility.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ability/WarlockAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ability/WarlockAbility.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ability/WarlockAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/ability/WarlockAbility.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/army.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/army.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/army.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/army.dir/DependInfo.cmake" afterDir="false" />
@@ -42,13 +40,37 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/army.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/army.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/army" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/army" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/army" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/army.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/army.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exceptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/exceptions.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spell/SpellBook.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/spell/SpellBook.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spellcaster/Necromancer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/spellcaster/Necromancer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spellcaster/Necromancer.h" beforeDir="false" afterPath="$PROJECT_DIR$/spellcaster/Necromancer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spellcaster/SpellCaster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/spellcaster/SpellCaster.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spellcaster/SpellCaster.h" beforeDir="false" afterPath="$PROJECT_DIR$/spellcaster/SpellCaster.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spellcaster/Warlock.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/spellcaster/Warlock.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spellcaster/Warlock.h" beforeDir="false" afterPath="$PROJECT_DIR$/spellcaster/Warlock.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit/Rogue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unit/Rogue.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit/Soldier.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unit/Soldier.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/MagicState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/state/MagicState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/MagicState.h" beforeDir="false" afterPath="$PROJECT_DIR$/state/MagicState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/State.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/state/State.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/State.h" beforeDir="false" afterPath="$PROJECT_DIR$/state/State.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/VampireState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/state/VampireState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit/Berserker.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unit/Berserker.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit/Demon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unit/Demon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit/Demon.h" beforeDir="false" afterPath="$PROJECT_DIR$/unit/Demon.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit/Soldier.h" beforeDir="false" afterPath="$PROJECT_DIR$/unit/Soldier.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit/Unit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unit/Unit.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit/Unit.h" beforeDir="false" afterPath="$PROJECT_DIR$/unit/Unit.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit/Vampire.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/unit/Vampire.cpp" afterDir="false" />
+    </list>
+    <list id="5910a22c-1a1e-4e9e-870b-cae5cd0dcbf9" name="added summon demon" comment="added summon demon">
+      <changelist_data name="Artiom" email="afedulov@playq.net" />
+      <change beforePath="$PROJECT_DIR$/ability/MagicAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ability/MagicAbility.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability/MagicAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/ability/MagicAbility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability/WarlockAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ability/WarlockAbility.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability/WarlockAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/ability/WarlockAbility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/unit/cmake-build-debug/CMakeFiles/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -72,26 +94,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.42309994">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Warlock.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spellcaster/Warlock.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
-                  <folding>
-                    <element signature="e#48#72#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Demon.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/unit/Demon.h">
+          <file leaf-file-name="Unit.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/unit/Unit.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="120">
                   <caret line="8" selection-start-line="8" selection-end-line="8" />
-                  <folding>
-                    <element signature="e#43#78#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -99,29 +106,86 @@
           <file leaf-file-name="WarlockAbility.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ability/WarlockAbility.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Wizard.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spellcaster/Wizard.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="8" selection-start-line="8" selection-end-line="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="WarlockAbility.h" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ability/WarlockAbility.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+                <state relative-caret-position="189">
+                  <caret line="27" selection-start-line="27" selection-end-line="27" />
                   <folding>
-                    <element signature="e#61#86#0" expanded="true" />
+                    <element signature="e#0#27#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Observer.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Interface/Observer.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="State.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/state/State.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="State.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/state/State.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="158">
+                  <caret line="16" selection-start-line="16" selection-end-line="16" />
+                  <folding>
+                    <element signature="e#33#52#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Demon.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/unit/Demon.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SpellCaster.cpp" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/spellcaster/SpellCaster.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Soldier.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/unit/Soldier.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DefaultAbility.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ability/DefaultAbility.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" selection-start-line="2" selection-end-line="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Ability.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ability/Ability.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" selection-start-line="2" selection-end-line="2" />
                 </state>
               </provider>
             </entry>
@@ -130,35 +194,14 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main.cpp">
+          <file leaf-file-name="tests.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/tests.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="188">
-                  <caret line="57" selection-start-line="57" selection-end-line="57" />
+                <state relative-caret-position="288">
+                  <caret line="825" selection-start-line="825" selection-end-line="825" />
                   <folding>
-                    <element signature="e#0#19#0" expanded="true" />
+                    <element signature="e#70#90#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Lightning.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spell/Lightning.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" selection-start-line="3" selection-end-line="13" selection-end-column="2" />
-                  <folding>
-                    <element signature="e#51#69#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Lightning.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spell/Lightning.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret selection-end-line="9" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -166,72 +209,83 @@
           <file leaf-file-name="Necromancer.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/spellcaster/Necromancer.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
+                <state relative-caret-position="231">
+                  <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="NecroAbility.cpp" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ability/NecroAbility.cpp">
+          <file leaf-file-name="MagicAbility.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ability/MagicAbility.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="24">
+                  <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="NecroAbility.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ability/NecroAbility.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" selection-start-line="13" selection-end-line="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Necromancer.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spellcaster/Necromancer.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-                  <folding>
-                    <element signature="e#55#79#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DarkMagic.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spell/DarkMagic.cpp">
+          <file leaf-file-name="WarlockAbility.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ability/WarlockAbility.h">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="165">
-                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                  <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#61#86#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DarkMagic.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spell/DarkMagic.h">
+          <file leaf-file-name="MagicAbility.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ability/MagicAbility.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="140">
+                  <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+                  <folding>
+                    <element signature="e#49#76#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+                  <folding>
+                    <element signature="e#0#19#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Observable.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Interface/Observable.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="70">
+                  <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+                  <folding>
+                    <element signature="e#97#116#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Observer.h" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Interface/Observer.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="130">
+                  <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PriestAbility.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ability/PriestAbility.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="240">
-                  <caret line="16" selection-start-line="16" selection-end-line="16" />
-                  <folding>
-                    <element signature="e#51#69#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Army.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Army.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-                  <folding>
-                    <element signature="e#0#28#0" expanded="true" />
-                    <element signature="e#658#687#0" expanded="true" />
-                  </folding>
+                  <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -256,64 +310,105 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="DevR" />
+                <branch-info repo="$PROJECT_DIR$" source="dev" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/dev" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Utests/WariorsTest.cpp" />
-        <option value="$PROJECT_DIR$/ability/WizardMagicAbility.h" />
-        <option value="$PROJECT_DIR$/spellcaster/Wizard.cpp" />
-        <option value="$PROJECT_DIR$/spell/FireBall.cpp" />
-        <option value="$PROJECT_DIR$/spell/Heal.h" />
-        <option value="$PROJECT_DIR$/spell/Heal.cpp" />
-        <option value="$PROJECT_DIR$/ability/WizardAbility.cpp" />
-        <option value="$PROJECT_DIR$/spellcaster/Wizard.h" />
-        <option value="$PROJECT_DIR$/ability/HealerAbility.cpp" />
-        <option value="$PROJECT_DIR$/ability/HealerAbility.h" />
-        <option value="$PROJECT_DIR$/spellcaster/Healer.h" />
-        <option value="$PROJECT_DIR$/ability/WizardAbility.h" />
-        <option value="$PROJECT_DIR$/ability/PriestAbility.h" />
-        <option value="$PROJECT_DIR$/state/State.cpp" />
-        <option value="$PROJECT_DIR$/spell/FireBall.h" />
-        <option value="$PROJECT_DIR$/ability/PriestAbility.cpp" />
-        <option value="$PROJECT_DIR$/spell/Spell.cpp" />
-        <option value="$PROJECT_DIR$/spellcaster/Healer.cpp" />
-        <option value="$PROJECT_DIR$/spellcaster/Priest.h" />
-        <option value="$PROJECT_DIR$/spellcaster/Priest.cpp" />
-        <option value="$PROJECT_DIR$/spell/Spell.h" />
-        <option value="$PROJECT_DIR$/unit/Demon.cpp" />
-        <option value="$PROJECT_DIR$/unit/Demon.h" />
-        <option value="$PROJECT_DIR$/spellcaster/SpellCaster.h" />
-        <option value="$PROJECT_DIR$/spellcaster/SpellCaster.cpp" />
-        <option value="$PROJECT_DIR$/ability/MagicAbility.h" />
-        <option value="$PROJECT_DIR$/unit/Unit.h" />
-        <option value="$PROJECT_DIR$/state/State.h" />
-        <option value="$PROJECT_DIR$/spellcaster/Necromanser.h" />
-        <option value="$PROJECT_DIR$/spellcaster/Necromanсer.cpp" />
         <option value="$PROJECT_DIR$/unit/Soldier.cpp" />
         <option value="$PROJECT_DIR$/unit/Rogue.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Army.h" />
-        <option value="$PROJECT_DIR$/ability/MagicAbility.cpp" />
-        <option value="$PROJECT_DIR$/unit/Unit.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/spell/Lightning.h" />
         <option value="$PROJECT_DIR$/spell/Lightning.cpp" />
-        <option value="$PROJECT_DIR$/ability/WarlockAbility.cpp" />
-        <option value="$PROJECT_DIR$/ability/WarlockAbility.h" />
-        <option value="$PROJECT_DIR$/spellcaster/Warlock.cpp" />
-        <option value="$PROJECT_DIR$/spellcaster/Warlock.h" />
         <option value="$PROJECT_DIR$/spell/DarkMagic.h" />
         <option value="$PROJECT_DIR$/spell/DarkMagic.cpp" />
         <option value="$PROJECT_DIR$/spell/SpellBook.h" />
-        <option value="$PROJECT_DIR$/spell/SpellBook.cpp" />
+        <option value="$PROJECT_DIR$/Interface/Victim.h" />
+        <option value="$PROJECT_DIR$/ability/Ability.h" />
         <option value="$PROJECT_DIR$/ability/NecroAbility.h" />
+        <option value="$PROJECT_DIR$/Army.h" />
+        <option value="$PROJECT_DIR$/ability/PriestAbility.h" />
+        <option value="$PROJECT_DIR$/state/MagicState.h" />
+        <option value="$PROJECT_DIR$/state/MagicState.cpp" />
+        <option value="$PROJECT_DIR$/state/NecroState.h" />
+        <option value="$PROJECT_DIR$/state/NecroState.cpp" />
+        <option value="$PROJECT_DIR$/Interface/Observer.h" />
+        <option value="$PROJECT_DIR$/Interface/Observer.cpp" />
+        <option value="$PROJECT_DIR$/Interface/Observable.h" />
+        <option value="$PROJECT_DIR$/Interface/Observable.cpp" />
+        <option value="$PROJECT_DIR$/unit/Vampire.cpp" />
+        <option value="$PROJECT_DIR$/spell/SpellBook.cpp" />
+        <option value="$PROJECT_DIR$/ability/PriestAbility.cpp" />
+        <option value="$PROJECT_DIR$/unit/Unit.h" />
+        <option value="$PROJECT_DIR$/ability/MagicAbility.h" />
+        <option value="$PROJECT_DIR$/spellcaster/Warlock.h" />
+        <option value="$PROJECT_DIR$/ability/WarlockAbility.h" />
+        <option value="$PROJECT_DIR$/spellcaster/SpellCaster.h" />
+        <option value="$PROJECT_DIR$/unit/Soldier.h" />
+        <option value="$PROJECT_DIR$/tests/tests_Rogue.cpp" />
+        <option value="$PROJECT_DIR$/tests/state_tests.cpp" />
+        <option value="$PROJECT_DIR$/tests/test_soldier.cpp" />
+        <option value="$PROJECT_DIR$/exceptions.h" />
+        <option value="$PROJECT_DIR$/state/State.h" />
+        <option value="$PROJECT_DIR$/state/State.cpp" />
+        <option value="$PROJECT_DIR$/state/VampireState.h" />
+        <option value="$PROJECT_DIR$/state/VampireState.cpp" />
+        <option value="$PROJECT_DIR$/ability/NecroAbility.cpp" />
         <option value="$PROJECT_DIR$/spellcaster/Necromancer.cpp" />
         <option value="$PROJECT_DIR$/spellcaster/Necromancer.h" />
-        <option value="$PROJECT_DIR$/ability/NecroAbility.cpp" />
+        <option value="$PROJECT_DIR$/spellcaster/Warlock.cpp" />
+        <option value="$PROJECT_DIR$/tests/tests.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/unit/Demon.cpp" />
+        <option value="$PROJECT_DIR$/unit/Demon.h" />
+        <option value="$PROJECT_DIR$/unit/Berserker.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/unit/Unit.cpp" />
+        <option value="$PROJECT_DIR$/ability/WarlockAbility.cpp" />
+        <option value="$PROJECT_DIR$/ability/MagicAbility.cpp" />
+        <option value="$PROJECT_DIR$/spellcaster/SpellCaster.cpp" />
       </list>
     </option>
   </component>
@@ -324,37 +419,30 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/ability/WarlockAbility.h">
+    <file path="$PROJECT_DIR$/ability/MagicAbility.h">
       <ranges>
-        <range start1="5" end1="13" start2="5" end2="5" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
-        <range start1="15" end1="17" start2="7" end2="7" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
-        <range start1="23" end1="24" start2="13" end2="14" changelist="5910a22c-1a1e-4e9e-870b-cae5cd0dcbf9" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/spellcaster/Warlock.cpp">
-      <ranges>
-        <range start1="3" end1="4" start2="3" end2="4" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
-        <range start1="8" end1="8" start2="8" end2="16" changelist="5910a22c-1a1e-4e9e-870b-cae5cd0dcbf9" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/spellcaster/Warlock.h">
-      <ranges>
-        <range start1="5" end1="6" start2="5" end2="6" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
-        <range start1="14" end1="15" start2="14" end2="15" changelist="5910a22c-1a1e-4e9e-870b-cae5cd0dcbf9" />
+        <range start1="6" end1="6" start2="6" end2="8" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
+        <range start1="16" end1="17" start2="18" end2="18" changelist="5910a22c-1a1e-4e9e-870b-cae5cd0dcbf9" />
+        <range start1="25" end1="25" start2="26" end2="30" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
+        <range start1="26" end1="28" start2="31" end2="31" changelist="5910a22c-1a1e-4e9e-870b-cae5cd0dcbf9" />
       </ranges>
     </file>
     <file path="$PROJECT_DIR$/ability/WarlockAbility.cpp">
       <ranges>
-        <range start1="3" end1="7" start2="3" end2="4" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
-        <range start1="25" end1="28" start2="22" end2="26" changelist="5910a22c-1a1e-4e9e-870b-cae5cd0dcbf9" />
+        <range start1="1" end1="1" start2="1" end2="5" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
+        <range start1="22" end1="25" start2="26" end2="29" changelist="5910a22c-1a1e-4e9e-870b-cae5cd0dcbf9" />
       </ranges>
     </file>
     <file path="$PROJECT_DIR$/main.cpp">
       <ranges>
-        <range start1="9" end1="10" start2="9" end2="9" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
-        <range start1="21" end1="22" start2="20" end2="20" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
-        <range start1="35" end1="35" start2="33" end2="35" changelist="5910a22c-1a1e-4e9e-870b-cae5cd0dcbf9" />
-        <range start1="48" end1="48" start2="48" end2="57" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
+        <range start1="11" end1="16" start2="11" end2="18" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
+        <range start1="27" end1="27" start2="29" end2="30" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
+        <range start1="31" end1="32" start2="34" end2="34" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
+        <range start1="33" end1="33" start2="35" end2="52" changelist="5910a22c-1a1e-4e9e-870b-cae5cd0dcbf9" />
+        <range start1="36" end1="39" start2="55" end2="55" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
+        <range start1="40" end1="42" start2="56" end2="58" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
+        <range start1="43" end1="44" start2="59" end2="59" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
+        <range start1="53" end1="56" start2="68" end2="70" changelist="019aeb79-8f90-4306-ad92-360ee23dbe49" />
       </ranges>
     </file>
   </component>
@@ -362,10 +450,10 @@
     <packageJsonPaths />
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="36" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="38" />
     <option name="y" value="23" />
-    <option name="width" value="1404" />
+    <option name="width" value="1402" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -457,6 +545,11 @@
             <path>
               <item name="army" type="b2602c69:ProjectViewProjectNode" />
               <item name="army" type="462c0819:PsiDirectoryNode" />
+              <item name="Interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="army" type="b2602c69:ProjectViewProjectNode" />
+              <item name="army" type="462c0819:PsiDirectoryNode" />
               <item name="spell" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -486,7 +579,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="main&#9;FILE&#9;file:///Users/lenkasava/Desktop/army/main.cpp&#10;spell&#9;FILE&#9;file:///Users/lenkasava/Desktop/army/spell/SpellBook.h&#10;main\&#9;FILE&#9;file:///Users/lenkasava/Desktop/army/main.cpp&#10;magic&#9;FILE&#9;file:///Users/lenkasava/Desktop/army/ability/MagicAbility.cpp&#10;pkm&#9;null&#9;null&#10;split vertically&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="Warlock&#9;FILE&#9;file:///Users/lenkasava/Desktop/army/ability/WarlockAbility.cpp&#10;main&#9;FILE&#9;file:///Users/lenkasava/Desktop/army/main.cpp&#10;spell&#9;FILE&#9;file:///Users/lenkasava/Desktop/army/spell/SpellBook.h&#10;main\&#9;FILE&#9;file:///Users/lenkasava/Desktop/army/main.cpp&#10;magic&#9;FILE&#9;file:///Users/lenkasava/Desktop/army/ability/MagicAbility.cpp&#10;pkm&#9;null&#9;null&#10;split vertically&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -495,6 +588,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Interface" />
+      <recent name="$PROJECT_DIR$/ability" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -518,6 +613,10 @@
       <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.army" />
     </list>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",KIND" />
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -547,7 +646,10 @@
       <workItem from="1534321293643" duration="29424000" />
       <workItem from="1535539393193" duration="1065000" />
       <workItem from="1535565776320" duration="3495000" />
-      <workItem from="1536236476248" duration="10083000" />
+      <workItem from="1536236476248" duration="21303000" />
+      <workItem from="1537295189725" duration="60853000" />
+      <workItem from="1537962111839" duration="1434000" />
+      <workItem from="1537991937220" duration="2528000" />
     </task>
     <task id="LOCAL-00001">
       <created>1527621806747</created>
@@ -598,11 +700,25 @@
       <option name="project" value="LOCAL" />
       <updated>1536928598333</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update 14/09">
+      <created>1536931128147</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1536931128149</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update 14/09">
+      <created>1536931619733</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1536931619733</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="283312000" />
+    <option name="totallyTimeSpent" value="359347000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -614,17 +730,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="23" width="1404" height="877" extended-state="0" />
+    <frame x="27" y="23" width="1402" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48702595" side_tool="true" visible="true" weight="0.11875453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48702595" side_tool="true" visible="true" weight="0.1182016" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3241107" />
-      <window_info anchor="bottom" x="131" y="264" width="1208" height="391" id="Messages" order="10" sideWeight="0.4785124" weight="0.35177866" />
+      <window_info anchor="bottom" x="131" y="264" width="1208" height="391" id="Messages" order="10" sideWeight="0.4785124" weight="0.43214756" />
       <window_info anchor="bottom" id="CMake" order="9" sideWeight="0.4989059" weight="0.42424244" />
-      <window_info id="Event Log" order="3" sideWeight="0.512974" side_tool="true" weight="0.15066226" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.48869437" weight="0.2947761" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48099172" visible="true" weight="0.48748353" />
-      <window_info id="Structure" order="1" sideWeight="0.50180507" side_tool="true" weight="0.11346018" />
+      <window_info id="Event Log" order="3" sideWeight="0.512974" side_tool="true" weight="0.15010877" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.48869437" weight="0.29380766" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48099172" visible="true" weight="0.43610013" />
+      <window_info id="Structure" order="1" sideWeight="0.50180507" side_tool="true" weight="0.23930384" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4983471" weight="0.33069828" />
       <window_info id="Favorites" order="2" sideWeight="0.5010661" side_tool="true" weight="0.2018581" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989059" weight="0.5256917" />
@@ -637,23 +753,23 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.32938075" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="CMake" order="9" sideWeight="0.4989059" weight="0.3206522" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.07418398" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48702595" side_tool="true" visible="true" weight="0.16468842" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.22850844" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.48869437" weight="0.29380766" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48702595" side_tool="true" visible="true" weight="0.1182016" />
       <window_info id="Structure" order="1" sideWeight="0.50180507" side_tool="true" weight="0.11346018" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32472825" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48099172" weight="0.32744566" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3241107" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48099172" visible="true" weight="0.43610013" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32938075" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989059" weight="0.5256917" />
+      <window_info anchor="bottom" x="131" y="264" width="1208" height="391" id="Messages" order="10" sideWeight="0.4785124" weight="0.43214756" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4983471" weight="0.33069828" />
+      <window_info id="Event Log" order="3" sideWeight="0.512974" side_tool="true" weight="0.15010877" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989059" weight="0.39919356" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4983471" weight="0.33152175" />
-      <window_info id="Event Log" order="3" sideWeight="0.512974" side_tool="true" weight="0.15066226" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.48869437" weight="0.32744566" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" x="131" y="264" width="1208" height="391" id="Messages" order="3" sideWeight="0.4785124" visible="true" weight="0.3323442" />
+      <window_info anchor="bottom" id="CMake" order="9" sideWeight="0.4989059" weight="0.42424244" />
       <window_info id="Favorites" order="2" sideWeight="0.5010661" side_tool="true" weight="0.2018581" />
     </layout-to-restore>
   </component>
@@ -674,14 +790,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ability/HealerAbility.cpp</url>
-          <line>17</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="43" />
+      <option name="time" value="57" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -721,308 +830,41 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spellcaster/Healer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/state/BerserkerState.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spellcaster/Priest.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unit/Vampire.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ability/VampireAbility.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ability/VampireAbility.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/state/MagicState.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/state/MagicState.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ability/WerewolfAbility.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spell/Heal.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ability/WizardAbility.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ability/WizardAbility.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unit/Demon.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ability/Ability.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ability/MagicAbility.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="e#49#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unit/Unit.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="e#31#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spellcaster/SpellCaster.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spellcaster/SpellCaster.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="9" />
-          <folding>
-            <element signature="e#47#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ability/DefaultAbility.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/state/State.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/state/State.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ability/Ability.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spellcaster/Necromanser.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="e#45#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unit/Soldier.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unit/Rogue.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spellcaster/Wizard.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spellcaster/Necromanсer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ability/MagicAbility.cpp">
+    <entry file="file://$PROJECT_DIR$/spellcaster/Warlock.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unit/Unit.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Army.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#658#687#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unit/Demon.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#43#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spell/FireBall.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <element signature="e#41#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spell/Spell.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spell/Spell.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spell/Lightning.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="13" selection-end-column="2" />
-          <folding>
-            <element signature="e#51#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spell/DarkMagic.h">
+    <entry file="file://$PROJECT_DIR$/ability/NecroAbility.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spellcaster/Necromancer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
-            <element signature="e#51#69#0" expanded="true" />
+            <element signature="e#55#79#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spell/Lightning.cpp">
+    <entry file="file://$PROJECT_DIR$/spell/Heal.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spell/SpellBook.h">
+    <entry file="file://$PROJECT_DIR$/spell/FireBall.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -1035,80 +877,339 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spell/SpellBook.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="90">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spell/FireBall.cpp">
+    <entry file="file://$PROJECT_DIR$/ability/WizardAbility.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spellcaster/Warlock.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="201">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
-            <element signature="e#48#72#0" expanded="true" />
+            <element signature="e#47#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spellcaster/Warlock.cpp">
+    <entry file="file://$PROJECT_DIR$/tests/catch.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ability/WarlockAbility.cpp">
+    <entry file="file://$PROJECT_DIR$/tests/tests_Rogue.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ability/WarlockAbility.h">
+    <entry file="file://$PROJECT_DIR$/tests/test_soldier.cpp" />
+    <entry file="file://$PROJECT_DIR$/tests/state_tests.cpp" />
+    <entry file="file://$PROJECT_DIR$/state/MagicState.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="150">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding>
-            <element signature="e#61#86#0" expanded="true" />
+            <element signature="e#45#64#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state/MagicState.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state/VampireState.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state/VampireState.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#49#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ability/PriestAbility.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ability/NecroAbility.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ability/NecroAbility.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spellcaster/Necromancer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="225">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
             <element signature="e#55#79#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spellcaster/Necromancer.cpp">
+    <entry file="file://$PROJECT_DIR$/spellcaster/Warlock.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exceptions.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit/Soldier.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ability/NecroAbility.h">
+    <entry file="file://$PROJECT_DIR$/spellcaster/SpellCaster.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ability/PriestAbility.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ability/DefaultAbility.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit/Demon.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#43#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit/Unit.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+          <folding>
+            <element signature="e#31#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit/Berserker.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ability/NecroAbility.cpp">
+    <entry file="file://$PROJECT_DIR$/Army.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="141">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="825" selection-start-line="825" selection-end-line="825" />
+          <folding>
+            <element signature="e#70#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spellcaster/Necromancer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ability/MagicAbility.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#49#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interface/Observable.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interface/Observer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state/State.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#33#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state/State.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit/Unit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit/Soldier.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ability/Ability.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ability/DefaultAbility.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit/Demon.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ability/MagicAbility.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ability/WarlockAbility.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#61#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ability/WarlockAbility.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spellcaster/SpellCaster.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interface/Observable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#97#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interface/Observer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
         </state>
       </provider>
     </entry>

@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+../exceptions.h
+
+../state/MagicState.h
+iostream
+-
+../exceptions.h
+../exceptions.h
+
 /Users/lenkasava/Desktop/army/Army.h
 ability/Ability.h
 /Users/lenkasava/Desktop/army/ability/Ability.h
@@ -27,12 +35,18 @@ ability/PriestAbility.h
 /Users/lenkasava/Desktop/army/ability/PriestAbility.h
 ability/WarlockAbility.h
 /Users/lenkasava/Desktop/army/ability/WarlockAbility.h
+ability/NecroAbility.h
+/Users/lenkasava/Desktop/army/ability/NecroAbility.h
 spell/FireBall.h
 /Users/lenkasava/Desktop/army/spell/FireBall.h
 spell/Heal.h
 /Users/lenkasava/Desktop/army/spell/Heal.h
 spell/Spell.h
 /Users/lenkasava/Desktop/army/spell/Spell.h
+spell/DarkMagic.h
+/Users/lenkasava/Desktop/army/spell/DarkMagic.h
+spell/Lightning.h
+/Users/lenkasava/Desktop/army/spell/Lightning.h
 spell/SpellBook.h
 /Users/lenkasava/Desktop/army/spell/SpellBook.h
 spellcaster/SpellCaster.h
@@ -45,6 +59,8 @@ spellcaster/Priest.h
 /Users/lenkasava/Desktop/army/spellcaster/Priest.h
 spellcaster/Warlock.h
 /Users/lenkasava/Desktop/army/spellcaster/Warlock.h
+spellcaster/Necromancer.h
+/Users/lenkasava/Desktop/army/spellcaster/Necromancer.h
 state/MagicState.h
 /Users/lenkasava/Desktop/army/state/MagicState.h
 state/State.h
@@ -57,6 +73,8 @@ state/WerewolfState.h
 /Users/lenkasava/Desktop/army/state/WerewolfState.h
 state/TurnWolfState.h
 /Users/lenkasava/Desktop/army/state/TurnWolfState.h
+state/NecroState.h
+/Users/lenkasava/Desktop/army/state/NecroState.h
 unit/Unit.h
 /Users/lenkasava/Desktop/army/unit/Unit.h
 unit/Soldier.h
@@ -71,6 +89,38 @@ unit/Werewolf.h
 /Users/lenkasava/Desktop/army/unit/Werewolf.h
 unit/Demon.h
 /Users/lenkasava/Desktop/army/unit/Demon.h
+Interface/Observer.h
+/Users/lenkasava/Desktop/army/Interface/Observer.h
+Interface/Observable.h
+/Users/lenkasava/Desktop/army/Interface/Observable.h
+
+/Users/lenkasava/Desktop/army/Interface/Observable.cpp
+Observable.h
+/Users/lenkasava/Desktop/army/Interface/Observable.h
+
+/Users/lenkasava/Desktop/army/Interface/Observable.h
+iostream
+-
+set
+-
+Observer.h
+/Users/lenkasava/Desktop/army/Interface/Observer.h
+../exceptions.h
+/Users/lenkasava/Desktop/army/exceptions.h
+
+/Users/lenkasava/Desktop/army/Interface/Observer.cpp
+Observer.h
+/Users/lenkasava/Desktop/army/Interface/Observer.h
+
+/Users/lenkasava/Desktop/army/Interface/Observer.h
+iostream
+-
+set
+-
+Observable.h
+/Users/lenkasava/Desktop/army/Interface/Observable.h
+../exceptions.h
+/Users/lenkasava/Desktop/army/exceptions.h
 
 /Users/lenkasava/Desktop/army/ability/Ability.cpp
 Ability.h
@@ -79,6 +129,10 @@ Ability.h
 /Users/lenkasava/Desktop/army/ability/Ability.h
 ../unit/Unit.h
 /Users/lenkasava/Desktop/army/unit/Unit.h
+../Interface/Observer.h
+/Users/lenkasava/Desktop/army/Interface/Observer.h
+../Interface/Observable.h
+/Users/lenkasava/Desktop/army/Interface/Observable.h
 
 /Users/lenkasava/Desktop/army/ability/DefaultAbility.cpp
 DefaultAbility.h
@@ -107,6 +161,10 @@ MagicAbility.h
 /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
 ../spell/SpellBook.h
 /Users/lenkasava/Desktop/army/spell/SpellBook.h
+../Interface/Observer.h
+/Users/lenkasava/Desktop/army/Interface/Observer.h
+../Interface/Observable.h
+/Users/lenkasava/Desktop/army/Interface/Observable.h
 
 /Users/lenkasava/Desktop/army/ability/NecroAbility.cpp
 NecroAbility.h
@@ -123,6 +181,8 @@ PriestAbility.h
 /Users/lenkasava/Desktop/army/ability/PriestAbility.h
 MagicAbility.h
 /Users/lenkasava/Desktop/army/ability/MagicAbility.h
+MagicState.h
+/Users/lenkasava/Desktop/army/ability/MagicState.h
 
 /Users/lenkasava/Desktop/army/ability/RogueAbility.cpp
 RogueAbility.h
@@ -145,6 +205,12 @@ Ability.h
 /Users/lenkasava/Desktop/army/ability/WarlockAbility.cpp
 WarlockAbility.h
 /Users/lenkasava/Desktop/army/ability/WarlockAbility.h
+../unit/Demon.h
+/Users/lenkasava/Desktop/army/unit/Demon.h
+string
+-
+cstring
+-
 
 /Users/lenkasava/Desktop/army/ability/WarlockAbility.h
 MagicAbility.h
@@ -277,6 +343,8 @@ SpellCaster.h
 /Users/lenkasava/Desktop/army/spell/DarkMagic.h
 ../ability/NecroAbility.h
 /Users/lenkasava/Desktop/army/ability/NecroAbility.h
+../state/NecroState.h
+/Users/lenkasava/Desktop/army/state/NecroState.h
 
 /Users/lenkasava/Desktop/army/spellcaster/Priest.cpp
 Priest.h
@@ -313,12 +381,16 @@ Warlock.h
 /Users/lenkasava/Desktop/army/spellcaster/Warlock.h
 
 /Users/lenkasava/Desktop/army/spellcaster/Warlock.h
+iostream
+-
 SpellCaster.h
 /Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h
 ../spell/Lightning.h
 /Users/lenkasava/Desktop/army/spell/Lightning.h
 ../ability/WarlockAbility.h
 /Users/lenkasava/Desktop/army/ability/WarlockAbility.h
+../unit/Demon.h
+/Users/lenkasava/Desktop/army/unit/Demon.h
 
 /Users/lenkasava/Desktop/army/spellcaster/Wizard.cpp
 Wizard.h
@@ -355,6 +427,20 @@ iostream
 -
 ../exceptions.h
 /Users/lenkasava/Desktop/army/exceptions.h
+
+/Users/lenkasava/Desktop/army/state/NecroState.cpp
+NecroState.h
+/Users/lenkasava/Desktop/army/state/NecroState.h
+
+/Users/lenkasava/Desktop/army/state/NecroState.h
+iostream
+-
+../exceptions.h
+/Users/lenkasava/Desktop/army/exceptions.h
+State.h
+/Users/lenkasava/Desktop/army/state/State.h
+MagicState.h
+/Users/lenkasava/Desktop/army/state/MagicState.h
 
 /Users/lenkasava/Desktop/army/state/State.cpp
 State.h
@@ -421,6 +507,8 @@ Demon.h
 /Users/lenkasava/Desktop/army/unit/Demon.h
 ../spellcaster/Warlock.h
 /Users/lenkasava/Desktop/army/spellcaster/Warlock.h
+Unit.h
+/Users/lenkasava/Desktop/army/unit/Unit.h
 Soldier.h
 /Users/lenkasava/Desktop/army/unit/Soldier.h
 ../ability/WarlockAbility.h
@@ -451,12 +539,16 @@ Unit.h
 /Users/lenkasava/Desktop/army/unit/Unit.h
 
 /Users/lenkasava/Desktop/army/unit/Unit.h
+set
+-
 ../state/State.h
 /Users/lenkasava/Desktop/army/state/State.h
 ../ability/Ability.h
 /Users/lenkasava/Desktop/army/ability/Ability.h
-../state/MagicState.h
-/Users/lenkasava/Desktop/army/state/MagicState.h
+../Interface/Observable.h
+/Users/lenkasava/Desktop/army/Interface/Observable.h
+../Interface/Observer.h
+/Users/lenkasava/Desktop/army/Interface/Observer.h
 
 /Users/lenkasava/Desktop/army/unit/Vampire.cpp
 Vampire.h

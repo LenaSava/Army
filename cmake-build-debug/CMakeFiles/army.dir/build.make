@@ -945,6 +945,78 @@ CMakeFiles/army.dir/ability/NecroAbility.cpp.o.provides: CMakeFiles/army.dir/abi
 CMakeFiles/army.dir/ability/NecroAbility.cpp.o.provides.build: CMakeFiles/army.dir/ability/NecroAbility.cpp.o
 
 
+CMakeFiles/army.dir/Interface/Observer.cpp.o: CMakeFiles/army.dir/flags.make
+CMakeFiles/army.dir/Interface/Observer.cpp.o: ../Interface/Observer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/army.dir/Interface/Observer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/Interface/Observer.cpp.o -c /Users/lenkasava/Desktop/army/Interface/Observer.cpp
+
+CMakeFiles/army.dir/Interface/Observer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/army.dir/Interface/Observer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lenkasava/Desktop/army/Interface/Observer.cpp > CMakeFiles/army.dir/Interface/Observer.cpp.i
+
+CMakeFiles/army.dir/Interface/Observer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/army.dir/Interface/Observer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lenkasava/Desktop/army/Interface/Observer.cpp -o CMakeFiles/army.dir/Interface/Observer.cpp.s
+
+CMakeFiles/army.dir/Interface/Observer.cpp.o.requires:
+
+.PHONY : CMakeFiles/army.dir/Interface/Observer.cpp.o.requires
+
+CMakeFiles/army.dir/Interface/Observer.cpp.o.provides: CMakeFiles/army.dir/Interface/Observer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/Interface/Observer.cpp.o.provides.build
+.PHONY : CMakeFiles/army.dir/Interface/Observer.cpp.o.provides
+
+CMakeFiles/army.dir/Interface/Observer.cpp.o.provides.build: CMakeFiles/army.dir/Interface/Observer.cpp.o
+
+
+CMakeFiles/army.dir/Interface/Observable.cpp.o: CMakeFiles/army.dir/flags.make
+CMakeFiles/army.dir/Interface/Observable.cpp.o: ../Interface/Observable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/army.dir/Interface/Observable.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/Interface/Observable.cpp.o -c /Users/lenkasava/Desktop/army/Interface/Observable.cpp
+
+CMakeFiles/army.dir/Interface/Observable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/army.dir/Interface/Observable.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lenkasava/Desktop/army/Interface/Observable.cpp > CMakeFiles/army.dir/Interface/Observable.cpp.i
+
+CMakeFiles/army.dir/Interface/Observable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/army.dir/Interface/Observable.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lenkasava/Desktop/army/Interface/Observable.cpp -o CMakeFiles/army.dir/Interface/Observable.cpp.s
+
+CMakeFiles/army.dir/Interface/Observable.cpp.o.requires:
+
+.PHONY : CMakeFiles/army.dir/Interface/Observable.cpp.o.requires
+
+CMakeFiles/army.dir/Interface/Observable.cpp.o.provides: CMakeFiles/army.dir/Interface/Observable.cpp.o.requires
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/Interface/Observable.cpp.o.provides.build
+.PHONY : CMakeFiles/army.dir/Interface/Observable.cpp.o.provides
+
+CMakeFiles/army.dir/Interface/Observable.cpp.o.provides.build: CMakeFiles/army.dir/Interface/Observable.cpp.o
+
+
+CMakeFiles/army.dir/state/NecroState.cpp.o: CMakeFiles/army.dir/flags.make
+CMakeFiles/army.dir/state/NecroState.cpp.o: ../state/NecroState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/army.dir/state/NecroState.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/army.dir/state/NecroState.cpp.o -c /Users/lenkasava/Desktop/army/state/NecroState.cpp
+
+CMakeFiles/army.dir/state/NecroState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/army.dir/state/NecroState.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lenkasava/Desktop/army/state/NecroState.cpp > CMakeFiles/army.dir/state/NecroState.cpp.i
+
+CMakeFiles/army.dir/state/NecroState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/army.dir/state/NecroState.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lenkasava/Desktop/army/state/NecroState.cpp -o CMakeFiles/army.dir/state/NecroState.cpp.s
+
+CMakeFiles/army.dir/state/NecroState.cpp.o.requires:
+
+.PHONY : CMakeFiles/army.dir/state/NecroState.cpp.o.requires
+
+CMakeFiles/army.dir/state/NecroState.cpp.o.provides: CMakeFiles/army.dir/state/NecroState.cpp.o.requires
+	$(MAKE) -f CMakeFiles/army.dir/build.make CMakeFiles/army.dir/state/NecroState.cpp.o.provides.build
+.PHONY : CMakeFiles/army.dir/state/NecroState.cpp.o.provides
+
+CMakeFiles/army.dir/state/NecroState.cpp.o.provides.build: CMakeFiles/army.dir/state/NecroState.cpp.o
+
+
 # Object files for target army
 army_OBJECTS = \
 "CMakeFiles/army.dir/ability/Ability.cpp.o" \
@@ -983,7 +1055,10 @@ army_OBJECTS = \
 "CMakeFiles/army.dir/spell/Lightning.cpp.o" \
 "CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o" \
 "CMakeFiles/army.dir/spell/DarkMagic.cpp.o" \
-"CMakeFiles/army.dir/ability/NecroAbility.cpp.o"
+"CMakeFiles/army.dir/ability/NecroAbility.cpp.o" \
+"CMakeFiles/army.dir/Interface/Observer.cpp.o" \
+"CMakeFiles/army.dir/Interface/Observable.cpp.o" \
+"CMakeFiles/army.dir/state/NecroState.cpp.o"
 
 # External object files for target army
 army_EXTERNAL_OBJECTS =
@@ -1025,9 +1100,12 @@ army: CMakeFiles/army.dir/spell/Lightning.cpp.o
 army: CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o
 army: CMakeFiles/army.dir/spell/DarkMagic.cpp.o
 army: CMakeFiles/army.dir/ability/NecroAbility.cpp.o
+army: CMakeFiles/army.dir/Interface/Observer.cpp.o
+army: CMakeFiles/army.dir/Interface/Observable.cpp.o
+army: CMakeFiles/army.dir/state/NecroState.cpp.o
 army: CMakeFiles/army.dir/build.make
 army: CMakeFiles/army.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking CXX executable army"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lenkasava/Desktop/army/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX executable army"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/army.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1072,6 +1150,9 @@ CMakeFiles/army.dir/requires: CMakeFiles/army.dir/spell/Lightning.cpp.o.requires
 CMakeFiles/army.dir/requires: CMakeFiles/army.dir/spellcaster/Necromancer.cpp.o.requires
 CMakeFiles/army.dir/requires: CMakeFiles/army.dir/spell/DarkMagic.cpp.o.requires
 CMakeFiles/army.dir/requires: CMakeFiles/army.dir/ability/NecroAbility.cpp.o.requires
+CMakeFiles/army.dir/requires: CMakeFiles/army.dir/Interface/Observer.cpp.o.requires
+CMakeFiles/army.dir/requires: CMakeFiles/army.dir/Interface/Observable.cpp.o.requires
+CMakeFiles/army.dir/requires: CMakeFiles/army.dir/state/NecroState.cpp.o.requires
 
 .PHONY : CMakeFiles/army.dir/requires
 

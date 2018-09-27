@@ -25,8 +25,6 @@ void MagicAbility::meditation() {
     this->owner->ensureIsAlive();
 
     this->owner->addMana(ExtraMana);
-
 }
-//Demon* MagicAbility::getDemon(demons demon) {
-//    return this->demonMap.at(demon);
-//}
+
+Demon* MagicAbility::evokeDemon() {}

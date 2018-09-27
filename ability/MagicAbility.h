@@ -4,6 +4,8 @@
 #include "../spell/Spell.h"
 #include "../spellcaster/SpellCaster.h"
 #include "../spell/SpellBook.h"
+#include "../Interface/Observer.h"
+#include "../Interface/Observable.h"
 
 
 
@@ -14,7 +16,6 @@ class MagicAbility {
     protected:
         SpellCaster* owner;
         Spell* spell;
-//        Demon* demon;
 
     public:
         MagicAbility(SpellCaster* owner, spells spell);
@@ -24,7 +25,9 @@ class MagicAbility {
         virtual void cast(Unit* enemy);
         virtual void meditation();
 
-//        Demon* getDemon(demon de);
+        virtual Demon* evokeDemon();
+
+
 
 };
 

@@ -3,6 +3,9 @@
 
 Unit::Unit(const char* title, int hitPoints, int damage)
     : state(new State(title, hitPoints, damage)) {
+    this->hitPoints = hitPoints;
+    this->hitPointsLimit = hitPointsLimit;
+    this->isUndead = false;
 }
 
 Unit::~Unit() {
@@ -69,6 +72,10 @@ bool Unit::getIsTurnWolf() {
     return this->state->getIsTurnWolf();
 }
 
+bool Unit::getIsUnDead() {
+    return this->isUndead;
+}
+
 void Unit::changeAbility(Ability* newAbility) {
     this->ability = newAbility;
 }
@@ -78,10 +85,27 @@ void Unit::changeState(State* newState) {
     this->state = newState;
 }
 
+void Unit::sendNotification() {
+    std::set<Observable*>::iterator it = observables.begin();
+    for ( ; it != observables.end(); it++ ) {
+        (*it)->removeObserver(this);
+    }
+}
+
+void Unit::notify() {
+    std::set<Observer*>::iterator it = observers.begin();
+    for ( ; it != observers.end(); it++ ) {
+        ((Unit*)(*it))->addHitPoints(getHitPointsLimit()/10);
+        (*it)->removeObservable(this);
+    }
+}
+
+
 void Unit::PrintDescription() {
     std::cout << "Unit name is " << this->state->getTitle()
      << " His HitPoints " << this->state->getHitPoints()
               << " And Damage " << this->state->getDamage()
+                << " Are you UnDead? " <<  this->getIsUnDead()
               <<  std::endl;
 
 };

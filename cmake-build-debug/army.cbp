@@ -97,6 +97,18 @@
 		<Unit filename="/Users/lenkasava/Desktop/army/Army.h">
 			<Option target="army"/>
 		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/Interface/Observable.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/Interface/Observable.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/Interface/Observer.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/Interface/Observer.h">
+			<Option target="army"/>
+		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/ability/Ability.cpp">
 			<Option target="army"/>
 		</Unit>
@@ -251,6 +263,12 @@
 			<Option target="army"/>
 		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/state/MagicState.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/state/NecroState.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/state/NecroState.h">
 			<Option target="army"/>
 		</Unit>
 		<Unit filename="/Users/lenkasava/Desktop/army/state/State.cpp">
