@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="army"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/lenkasava/Desktop/army/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/lenkasava/Desktop/army/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/lenkasava/Desktop/army/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="army">
+				<Option output="/Users/lenkasava/Desktop/army/cmake-build-debug/army" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lenkasava/Desktop/army/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lenkasava/Desktop/army/."/>
+					<Add directory="/Users/lenkasava/Desktop/army/ability"/>
+					<Add directory="/Users/lenkasava/Desktop/army/spell"/>
+					<Add directory="/Users/lenkasava/Desktop/army/spellcaster"/>
+					<Add directory="/Users/lenkasava/Desktop/army/state"/>
+					<Add directory="/Users/lenkasava/Desktop/army/unit"/>
+					<Add directory="/Users/lenkasava/Desktop/army/tests"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 army"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="army/fast">
+				<Option output="/Users/lenkasava/Desktop/army/cmake-build-debug/army" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lenkasava/Desktop/army/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/lenkasava/Desktop/army/."/>
+					<Add directory="/Users/lenkasava/Desktop/army/ability"/>
+					<Add directory="/Users/lenkasava/Desktop/army/spell"/>
+					<Add directory="/Users/lenkasava/Desktop/army/spellcaster"/>
+					<Add directory="/Users/lenkasava/Desktop/army/state"/>
+					<Add directory="/Users/lenkasava/Desktop/army/unit"/>
+					<Add directory="/Users/lenkasava/Desktop/army/tests"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 army/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lenkasava/Desktop/army/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/lenkasava/Desktop/army/Army.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/Interface/Observable.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/Interface/Observable.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/Interface/Observer.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/Interface/Observer.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/Ability.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/Ability.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/DefaultAbility.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/DefaultAbility.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/HealerAbility.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/HealerAbility.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/MagicAbility.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/MagicAbility.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/NecroAbility.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/NecroAbility.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/PriestAbility.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/PriestAbility.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/RogueAbility.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/RogueAbility.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/VampireAbility.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/VampireAbility.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/WarlockAbility.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/WarlockAbility.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/WerewolfAbility.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/WerewolfAbility.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/WizardAbility.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/ability/WizardAbility.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/exceptions.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/main.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spell/DarkMagic.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spell/DarkMagic.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spell/FireBall.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spell/FireBall.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spell/Heal.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spell/Heal.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spell/Lightning.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spell/Lightning.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spell/Spell.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spell/Spell.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spell/SpellBook.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spell/SpellBook.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Healer.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Healer.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Necromancer.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Necromancer.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Priest.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Priest.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/SpellCaster.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/SpellCaster.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Warlock.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Warlock.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Wizard.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/spellcaster/Wizard.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/state/BerserkerState.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/state/BerserkerState.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/state/MagicState.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/state/MagicState.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/state/NecroState.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/state/NecroState.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/state/State.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/state/State.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/state/TurnWolfState.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/state/TurnWolfState.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/state/VampireState.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/state/VampireState.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/state/WerewolfState.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/state/WerewolfState.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/unit/Berserker.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/unit/Berserker.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/unit/Demon.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/unit/Demon.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/unit/Rogue.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/unit/Rogue.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/unit/Soldier.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/unit/Soldier.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/unit/Unit.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/unit/Unit.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/unit/Vampire.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/unit/Vampire.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/unit/Werewolf.cpp">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/unit/Werewolf.h">
+			<Option target="army"/>
+		</Unit>
+		<Unit filename="/Users/lenkasava/Desktop/army/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

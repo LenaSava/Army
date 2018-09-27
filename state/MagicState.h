@@ -8,6 +8,7 @@ class MagicState {
     protected:
         int mana;
         int manaLimit;
+//        bool isNecromancer = false;
 
     public:
         MagicState(int mana);
@@ -18,6 +19,8 @@ class MagicState {
 
         void addMana(int extra);
         void spendMana(int cost);
+
+//        bool getIsNecromancer();
 };
 
 #endif // MAGIC_STATE_H

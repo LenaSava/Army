@@ -11,10 +11,15 @@ class State {
         int hitPointsLimit;
         int damage;
 
+        bool isVampire = false;
+        bool isWolf = false;
+        bool isTurnWolf = false;
+        bool isNecromancer = false;
+
         void _takeDamage(int dmg);
 
     public:
-        State(const char* title, int hitPoints, int damage);
+        State(const char *title, int hitPoints, int damage);
         virtual ~State();
 
         void ensureIsAlive();
@@ -27,6 +32,12 @@ class State {
         void addHitPoints(int hp);
         void takeDamage(int dmg);
         void takeMagicDamage(int dmg);
+
+        bool getIsVampire();
+        bool getIsWolf();
+        bool getIsTurnWolf();
+        bool getIsNecromancer();
+
 };
 
 #endif // STATE_H

@@ -21,12 +21,14 @@ public:
     void ensureIsAlive();
 
     const char* getTitle() const;
-    int getHitPoints() const;
+    int getHitPoints() const;;;;
     int getHitPointsLimit() const;
     int getDamage() const;
 
     void addHitPoints(int hp);
     void takeDamage(int dmg);
+    void takeMagicDamage(int dmg);
+
 };
 
 #endif // BERSERKER_STATE_H

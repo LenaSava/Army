@@ -5,8 +5,12 @@
 #include "../ability/MagicAbility.h"
 #include "../state/MagicState.h"
 #include "../ability/DefaultAbility.h"
+#include "../spell/SpellBook.h"
+//#include "../unit/Demon.h"
+
 
 class MagicAbility;
+class Demon;
 
 class SpellCaster: public Unit {
     protected:
@@ -23,8 +27,13 @@ class SpellCaster: public Unit {
         void addMana(int extra);
         void spendMana(int cost);
 
-        void changeSpell(Spell* newSpell);
+        void changeSpell(spells newSpell);
         virtual void cast(Unit* enemy);
+        virtual void meditation();
+
+        virtual Demon* evokeDemon();
+
+        void PrintDescription();
 
 };
 

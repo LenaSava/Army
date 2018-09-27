@@ -8,3 +8,7 @@ void RogueAbility::attack(Unit* enemy) {
     this->owner->ensureIsAlive();
     enemy->takeDamage(this->owner->getDamage());
 }
+
+void RogueAbility::convert(Unit* enemy) {
+    
+}

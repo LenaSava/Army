@@ -7,8 +7,9 @@ class DefaultAbility : public Ability {
     public:
         DefaultAbility(Unit* owner);
         virtual ~DefaultAbility();
-        
-        virtual void attack(Unit* enemy);
+
+    virtual void attack(Unit* enemy);
+    virtual void convert(Unit* enemy);
 };
 
 #endif // DEFAULT_ABILITY_H

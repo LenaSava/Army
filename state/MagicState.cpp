@@ -1,6 +1,8 @@
 #include "MagicState.h"
 
-MagicState::MagicState(int mana) : mana(mana), manaLimit(mana) {}
+MagicState::MagicState(int mana) : mana(mana), manaLimit(mana) {
+//    this->isNecromancer = false;
+}
 
 MagicState::~MagicState() {}
 
@@ -27,3 +29,7 @@ void MagicState::spendMana(int cost) {
     }
     this->mana -= cost;
 }
+
+//bool MagicState::getIsNecromancer() {
+//    return this->isNecromancer;
+//}
